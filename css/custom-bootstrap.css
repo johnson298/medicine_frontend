@@ -160,3 +160,13 @@
 .pl-5 { padding-left:3rem!important; }
 .px-5 { padding-right:3rem!important;padding-left:3rem!important; }
 .py-5 { padding-top:3rem!important;padding-bottom:3rem!important; }
+
+.scale-1 {transform: scale(1);}
+.scale-2 {transform: scale(2);}
+.scale-3 {transform: scale(3);}
+
+.font-weight-bold{ font-weight: bold !important; }
+
+.no-wrap{
+    white-space: nowrap;
+}

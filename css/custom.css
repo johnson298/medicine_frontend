@@ -47,7 +47,11 @@ li.parent > a i {float: right;margin-top: 3px;}
     white-space: normal;
     font-size: 11px;
 }
-.body, .page{
+.body,
+.page,
+.main-container,
+#shopping-cart-table,
+.product-collateral{
     background-color: #f5f5f5;
 }
 #main-categories .col-item {
@@ -86,11 +90,113 @@ li.parent > a i {float: right;margin-top: 3px;}
     border-top: 3px solid #2682d2;
 }
 .text-blue{
-    color: #2682d2;
+    color: #2682d2 !important;
 }
 .footer-logo img {
     width: 200px;
 }
 .new_title.center {
     border-bottom: 2px #2682d2 solid;
+}
+.text-white{
+    color: #fff !important;
+}
+.select-custom {
+    font-size: 12px;
+    width: 100px;
+    padding: 5px;
+    height: 28px;
+}
+.range-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.range-price input {
+    width: calc(50% - 5px);
+}
+input.input-text{
+    color: #424242;
+}
+#shopping-cart-table .product-image img {
+    width: 75px;
+    height: auto;
+}
+.bg-white {
+    background-color: #fff;
+}
+.bg-blue{
+    background-color: #2682d2;
+}
+#shopping-cart-table h4 {
+    font-family: unset;
+}
+.cart-main {
+    background-color: #fff;
+}
+.actions .actions-inner button.button.btn-cart{
+    border: none;
+}
+.range-price__item {
+    border: 1.5px solid #2682d2;
+    border-radius: 2px;
+    padding: 3px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.range-price__item:hover {
+    background: #2682d2;
+    transition: 0.3s ease-in-out;
+}
+
+.range-price__item:hover span {
+    color: #fff !important;
+}
+.select-custom__115{
+    width: 115px !important;
+}
+.input_height{
+    height: 28px;
+}
+.filter-shop-head > div {
+    width: calc(100% / 3);
+}
+.form-no-border {
+    border: none !important;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.form-no-border:focus {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+.border-bottom{
+    border-bottom: 1px solid #2682d2 !important;
+}
+.btn-base {
+    background-color: #2682d2;
+    border: 1px #2682d2 solid;
+    color: #fff;
+}
+.commentlist li .comment-wrapper {
+    margin-bottom: 10px !important;
+}
+.comment-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-wrapper .detail-by {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.comment-wrapper .detail-by .price {
+    font-size: 16px;
+    font-weight: bold;
 }
