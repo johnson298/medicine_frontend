@@ -167,6 +167,6 @@
 
 .font-weight-bold{ font-weight: bold !important; }
 
-.no-wrap{
-    white-space: nowrap;
-}
+.no-wrap{white-space: nowrap;}
+
+.cursor-pointer { cursor: pointer!important; }
