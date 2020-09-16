@@ -202,7 +202,7 @@ legend {
 	font-size: 13px;
 }
 .header-container .signup a {
-	color: #333;
+	color: #fdfefe;
 	padding: 0px 0px;
 	display: block;
 	border-radius: 2px;
@@ -513,7 +513,7 @@ a.block-currency:focus {
 	position: relative;
 	z-index: 100;
 	float: left;
-	color: #000;
+	color: #fdfefe;
 	line-height: normal;
 	font-size: 12px;
 }
@@ -4535,7 +4535,7 @@ button.button.view-all:before {
 button.button span {
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size: 11px;
+	font-size: 12px;
 	letter-spacing: 1px;
 }
 /* 16. Category Description  */
@@ -7676,8 +7676,6 @@ input#coupon_code {
 #shopping-cart-table h4 {
 	font-size: 12px;
 	font-weight: 900;
-	
-	text-transform: uppercase
 }
 #shipping-zip-form .form-list label {
 	display: block;

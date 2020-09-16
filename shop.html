@@ -13,8 +13,8 @@
     <meta name="author" content="">
     <title>Quầy thuốc sỉ</title>
     <!-- Favicons Icon -->
-    <link rel="icon" href="http://demo.magikthemes.com/skin/frontend/base/default/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="http://demo.magikthemes.com/skin/frontend/base/default/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- CSS Style -->
@@ -85,9 +85,7 @@
                     <div class="top-cart-contain mt-0">
                         <div class="mini-cart">
                             <div class="basket dropdown-toggle">
-                                <a href="giohang.html"> <i class="icon-cart"></i>
-                                    <div class="cart-box"><span class="title">Giỏ hàng</span><span id="cart-total"> 2 </span></div>
-                                </a></div>
+                                <a href="giohang.html" class="cart-header"> <i class="icon-cart"></i><span id="cart-total"> 2 </span></a></div>
                         </div>
                         <div id="ajaxconfig_info" style="display:none"> <a href="#/"></a>
                             <input value="" type="hidden">
@@ -99,6 +97,8 @@
                     <div class="signup mt-0"><a title="Login" href="login.html"><span>Đăng ký</span></a></div>
                     <span class="or mt-0"> | </span>
                     <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
+                    <span class="or mt-0"> | </span>
+                    <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
                 </div>
                 <!-- End Top Cart -->
             </div>
@@ -384,15 +384,17 @@
                             <img src="images/shop.jpg" alt="">
                         </div>
                         <div class="info">
-                            <h4>Nhà thuốc Long Hiền</h4>
+                            <h4 class="mb-1">Nhà thuốc Long Hiền</h4>
                             <div class="ratings ml-5">
                                 <div class="rating-box">
                                     <div style="width:80%" class="rating"></div>
                                 </div>
                                 <strong class="text-blue">4.5</strong>
-                                <span class="text-muted"><em>(100 đánh giá)</em></span>
+                                <p class="text-muted mb-1"><em>(100 đánh giá)</em></p>
+                                <p class="mb-1">
+                                    <small class="store-address">Nơi bán: Hà Nội</small>
+                                </p>
                             </div>
-                            <strong class="mb-1 d-block">Nơi bán: Hà Nội</strong>
                             <button class="button"><i class="far fa-comment-dots"></i> Chat ngay</button>
                         </div>
                     </div>
@@ -850,9 +852,12 @@
                             </div>
                             <div class="box-reviews2">
                                 <h3>Đánh giá của người mua hàng</h3>
-                                <div class="box visible">
+                                <div class="box visible box-cmt">
                                     <ul>
                                         <li>
+                                            <div class="cmt-img-user">
+                                                <img src="images/shop.jpg" alt="">
+                                            </div>
                                             <div class="review">
                                                 <h6><a href="#">Nguyễn Văn A</a></h6>
                                                 <div class="rating-box">
@@ -863,6 +868,9 @@
                                             </div>
                                         </li>
                                         <li>
+                                            <div class="cmt-img-user">
+                                                <img src="images/shop.jpg" alt="">
+                                            </div>
                                             <div class="review">
                                                 <h6><a href="#">Nguyễn Văn A</a> <span class="shield-buy"><i class="fas fa-shield-alt"></i> Chứng nhận đã mua hàng</span></h6>
                                                 <div class="rating-box">

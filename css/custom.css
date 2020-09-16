@@ -2,6 +2,45 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+body{
+    line-height: 1.8;
+}
+
+body,
+.block-list-profile .item a,
+#shopping-cart-table .cart-price .price,
+.footer a, .footer p,
+ul.shop-more li,
+.header-container .login,
+.data-table th,
+.header-container .signup,
+.product-view .short-description,
+.box-category > ul > li ul > li > a,
+.side-nav-categories ul li a {
+    font-size: 14px;
+}
+.data-table thead th {
+    font-weight: normal;
+}
+#shopping-cart-table h4 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#nav > li > a{
+    font-size: 13px;
+    padding: 7px 0px 5px;
+}
+#recently-viewed-items.block-list-profile li {
+    padding: 12px 5px !important;
+}
+#nav > li > a > span{
+    padding: 0 12px;
+}
+
+strong {
+    font-weight: 500;
+}
 
 #search_mini_form {
     display: flex;
@@ -50,7 +89,7 @@ li.parent > a i {float: right;margin-top: 3px;}
 
 #main-categories .item-title a {
     white-space: normal;
-    font-size: 12px;
+    font-size: 14px;
 }
 .body,
 .page,
@@ -133,9 +172,6 @@ input.input-text{
 }
 .bg-blue{
     background-color: #2682d2;
-}
-#shopping-cart-table h4 {
-    font-family: unset;
 }
 .cart-main {
     background-color: #fff;
@@ -239,8 +275,6 @@ input.input-text{
 
 .shop-info .ratings {
     margin: 0 0 8px 0!important;
-    display: flex;
-    align-items: center;
 }
 
 .shop-info .info {
@@ -255,7 +289,6 @@ input.input-text{
     margin-left: 4px;
 }
 ul.shop-more li {
-    font-size: 13px;
     margin-bottom: 15px;
 }
 
@@ -278,4 +311,153 @@ ul.shop-more {
 #list-shop .blog-img {
     height: 200px;
     overflow: hidden;
+}
+.cmt-img-user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.cmt-img-user img {
+    width: 100%;
+    height: auto;
+}
+
+.box-cmt li {
+    display: flex;
+    border-left: 1px solid #DFDFDF;
+    padding-left: 10px;
+}
+
+.box-cmt .review {
+    border: none !important;
+    padding-left: 15px;
+}
+.header .profile img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transform: translateY(-4px);
+}
+
+.header .profile a {
+    display: flex;
+}
+.header .profile a span {
+    padding-left: 5px;
+    color: #fff;
+}
+.cart-header {
+    position: relative;
+}
+
+.cart-header #cart-total {
+    position: absolute;
+    background: #ff3433;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    line-height: 16px;
+    font-size: 10px;
+    top: -9px;
+    right: 10px;
+    text-align: center;
+}
+
+.header .icon-cart:before {
+    color: #fff;
+}
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.file-upload {
+    display: none !important;
+}
+.circle-profile {
+    border-radius: 1000px !important;
+    overflow: hidden;
+    width: 128px;
+    height: 128px;
+    border: 8px solid rgb(234 234 234 / 70%);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.p-image {
+    padding-left: 10px;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}
+.upload-button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.p-image button {
+    position: relative;
+}
+.block-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.block-img .img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.block-img img {
+    width: 100%;
+}
+.block-img label {
+    padding-left: 5px;
+}
+.block-list-profile .item.active a{
+    color: #2682d2;
+}
+.line-height-normal{
+    line-height: initial !important;
+}
+.breadcrumbs {
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.side-nav-categories ul li a {
+    font-weight: 500 !important;
+}
+.box-category > ul > li ul > li > a {
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+}
+.store-address{
+    font-size: 12px;
+}
+button.button.btn-proceed-checkout {
+    padding: 2px 5px;
+}
+.button.btn-proceed-checkout span {
+    font-size: 15px;
+}
+.info-profile label {
+    font-size: 13px !important;
+}
+.account-login .form-list input.input-text{
+    padding: 5px;
 }

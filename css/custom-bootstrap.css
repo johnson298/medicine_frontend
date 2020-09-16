@@ -165,7 +165,7 @@
 .scale-2 {transform: scale(2);}
 .scale-3 {transform: scale(3);}
 
-.font-weight-bold{ font-weight: bold !important; }
+.font-weight-bold{ font-weight: 500 !important; }
 
 .no-wrap{white-space: nowrap;}
 
