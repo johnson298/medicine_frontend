@@ -10,6 +10,10 @@
     -ms-flex-direction: column!important;
     flex-direction: column!important;
 }
+.flex-wrap{
+    -ms-flex-wrap: wrap!important;
+    flex-wrap: wrap;
+}
 .justify-content-end {
     -ms-flex-pack: end!important;
     justify-content: flex-end!important;
@@ -164,6 +168,9 @@
 .scale-1 {transform: scale(1);}
 .scale-2 {transform: scale(2);}
 .scale-3 {transform: scale(3);}
+
+.text-uppercase{text-transform: uppercase !important;}
+.text-transform-normal{text-transform: inherit;}
 
 .font-weight-bold{ font-weight: 500 !important; }
 

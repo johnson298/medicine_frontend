@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from htmldemo.magikcommerce.com/ecommerce/inspire-html-template/furniture/contact_us.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Aug 2015 08:05:21 GMT -->
+<!-- Mirrored from htmldemo.magikcommerce.com/ecommerce/inspire-html-template/furniture/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Aug 2015 08:04:21 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -363,129 +363,85 @@
         </div>
     </nav>
     <!-- end nav -->
-
-    <!-- breadcrumbs -->
-
-    <div class="breadcrumbs">
-        <div class="container">
-            <div class="row">
-                <ul>
-                    <li class="home"> <a title="Go to Home Page" href="http://www.magikcommerce.com/">Trang chủ</a><span>&mdash;›</span></li>
-                    <li class="category13"><strong>Tài khoản</strong></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- main-container -->
-    <div class="main-container col2-right-layout">
+    <section class="main-container col1-layout">
         <div class="main container">
-            <div class="row">
-                <aside class="col-right sidebar col-sm-3 wow">
-                    <div class="block block-company">
-                        <div class="block-img">
-                            <div class="img">
-                                <img src="images/blog-img1.jpg" alt="">
+            <div class="row d-flex justify-content-center flex-wrap">
+                <div class="col-sm-12 col-md-8">
+                    <div class="account-login p-4">
+                        <div class="page-title p-0 text-center">
+                            <h4 class="mt-0 text-blue font-weight-bold"><i class="fas fa-user-plus"></i> Đăng ký tài khoản</h4>
+                        </div>
+                        <fieldset class="col2-set">
+                            <div class="registered-users">
+                                <div class="content mt-0 pt-0">
+                                    <ul class="form-list">
+                                        <li>
+                                            <label for="name">Họ và tên <span class="required">*</span></label>
+                                            <br>
+                                            <input type="text" title="name" class="input-text required-entry" id="name" placeholder="Nhập họ và tên">
+                                        </li>
+                                        <li>
+                                            <label for="phone">Số điện thoại <span class="required">*</span></label>
+                                            <br>
+                                            <input type="text" title="phone" class="input-text required-entry" id="phone" placeholder="Nhập số điện thoại">
+                                        </li>
+                                        <li>
+                                            <label for="email">Email <span class="required">*</span></label>
+                                            <br>
+                                            <input type="text" title="Email Address" class="input-text required-entry" id="email" placeholder="Nhập địa chỉ email">
+                                        </li>
+                                        <li>
+                                            <label for="password">Mật khẩu <span class="required">*</span></label>
+                                            <br>
+                                            <input type="password" title="Password" id="password" class="input-text required-entry validate-password" placeholder="******">
+                                        </li>
+                                        <li>
+                                            <label for="confirmPassword">Nhập lại mật khẩu <span class="required">*</span></label>
+                                            <br>
+                                            <input type="password" id="confirmPassword" title="Confirm password" class="input-text required-entry validate-password" placeholder="******">
+                                        </li>
+                                    </ul>
+                                    <div class="buttons-set">
+                                        <button class="button create-account" type="button"><span>Tạo tài khoản</span></button>
+                                        <span class="forgot-word" href="#">Bạn đã có tài khoản ?</span>
+                                        <a href="login.html" class="text-blue">Đăng nhập</a>
+                                    </div>
+                                </div>
                             </div>
-                            <label>Quỳnh Nguyễn</label>
-                        </div>
-                        <div class="block-content px-0">
-                            <ol id="recently-viewed-items" class="block-list-profile">
-                                <li class="item odd active"><a href="profile.html"><i class="fas fa-user-circle"></i> Thông tin tài khoản</a></li>
-                                <li class="item even"><a href="donhangcuatoi.html"><i class="fas fa-file-alt"></i> Đơn hàng của tôi</a></li>
-                                <li class="item  odd"><a href="thongbao.html"><i class="fas fa-bell"></i> Thông báo</a></li>
-                            </ol>
-                        </div>
+                        </fieldset>
                     </div>
-                </aside>
-                <section class="col-main col-sm-9 wow mb-5">
-                    <div class="row page-title bg-top border-title-top bg-white">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <h4 class="m-2">Thông báo</h4>
-                            <a href="javascript:void(0)" class="text-blue pr-2 seen-all"><i class="fas fa-check"></i> Đánh dấu đã đọc tất cả</a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <div class="account-login p-4">
+                        <div class="page-title p-0 text-center">
+                            <h4 class="mt-0 text-blue font-weight-bold"><i class="fas fa-check"></i> Xác thực tài khoản</h4>
+                            <p>Hệ thống đã gửi một mã xác thực, vui lòng kiểm tra điện thoại hoặc email của bạn !</p>
                         </div>
-                    </div>
-                    <div class="notification-list">
-                        <div class="notification-list__item active">
-                            <div class="img">
-                                <img src="images/blog-img1.jpg" alt="">
+                        <fieldset class="col2-set">
+                            <div class="registered-users">
+                                <div class="content mt-0 pt-0">
+                                    <ul class="form-list">
+                                        <li>
+                                            <label for="verifyCode">Mã xác thực <span class="required">*</span></label>
+                                            <br>
+                                            <input type="text" title="verifyCode" id="verifyCode" class="input-text required-entry" placeholder="Nhập mã xác thực">
+                                        </li>
+                                    </ul>
+                                    <div class="buttons-set">
+                                        <button class="button create-account" type="button"><span>Tạo tài khoản</span></button>
+                                        <span class="forgot-word" href="#">Bạn đã có tài khoản ?</span>
+                                        <a href="login.html" class="text-blue">Đăng nhập</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="notification-content">
-                                <h4>Đã xã nhận đơn đặt hàng</h4>
-                                <p class="mb-0">Người bán <strong class="text-blue">Hiệu thuốc Long BIên</strong> đã xác nhận đơn đặt hàng của bạn. Mã đơn hàng <strong class="text-blue">0999FHFJH</strong></p>
-                                <small>10:00 22-09-2020</small>
-                            </div>
-                            <div class="notification-view">
-                                <button class="button">Xem chi tiết đơn hàng</button>
-                            </div>
-                        </div>
-                        <div class="notification-list__item">
-                            <div class="img">
-                                <img src="images/blog-img1.jpg" alt="">
-                            </div>
-                            <div class="notification-content">
-                                <h4>Đã xã nhận đơn đặt hàng</h4>
-                                <p class="mb-0">Người bán <strong class="text-blue">Hiệu thuốc Long BIên</strong> đã xác nhận đơn đặt hàng của bạn. Mã đơn hàng <strong class="text-blue">0999FHFJH</strong></p>
-                                <small>10:00 22-09-2020</small>
-                            </div>
-                            <div class="notification-view">
-                                <button class="button">Xem chi tiết đơn hàng</button>
-                            </div>
-                        </div>
-                        <div class="notification-list__item">
-                            <div class="img">
-                                <img src="images/blog-img1.jpg" alt="">
-                            </div>
-                            <div class="notification-content">
-                                <h4>Đã xã nhận đơn đặt hàng</h4>
-                                <p class="mb-0">Người bán <strong class="text-blue">Hiệu thuốc Long BIên</strong> đã xác nhận đơn đặt hàng của bạn. Mã đơn hàng <strong class="text-blue">0999FHFJH</strong></p>
-                                <small>10:00 22-09-2020</small>
-                            </div>
-                            <div class="notification-view">
-                                <button class="button">Xem chi tiết đơn hàng</button>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-    <!--End main-container -->
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="brand-logo ">
-            <div class="container">
-                <div class="slider-items-products">
-                    <div id="brand-logo-slider" class="product-flexslider hidden-buttons">
-                        <div class="slider-items slider-width-col6">
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo1.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo2.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo3.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo4.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo5.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo6.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo1.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                            <!-- Item -->
-                            <div class="item"> <a href="#x"><img src="images/b-logo4.png" alt="Image"></a> </div>
-                            <!-- End Item -->
-                        </div>
+                        </fieldset>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
         <div class="footer-middle container">
             <div class="col-md-3 col-sm-4">
                 <div class="footer-logo"><a href="index.html" title="Logo"><img src="images/logo-qt.png" alt="logo"></a></div>
@@ -556,6 +512,5 @@
 
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script src="js/custom.js"></script>
 </body>
 </html>
