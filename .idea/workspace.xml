@@ -15,17 +15,18 @@
     <session id="1639980653">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -195,8 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thongbao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="400" column="24" selection-start-line="400" selection-start-column="24" selection-end-line="400" selection-end-column="24" />
+            <state relative-caret-position="2592">
+              <caret line="446" column="26" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="26" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -218,7 +219,7 @@
         <entry file="file://$PROJECT_DIR$/donhangcuatoi.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1593">
-              <caret line="409" column="69" selection-start-line="409" selection-start-column="69" selection-end-line="409" selection-end-column="69" />
+              <caret line="412" column="69" selection-start-line="412" selection-start-column="69" selection-end-line="412" selection-end-column="69" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -242,7 +243,7 @@
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="461" column="17" selection-start-line="461" selection-start-column="17" selection-end-line="461" selection-end-column="17" />
+              <caret line="785" column="23" selection-start-line="785" selection-start-column="23" selection-end-line="785" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -250,8 +251,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom-bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4428">
-              <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
+            <state relative-caret-position="4536">
+              <caret line="168" column="31" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -420,14 +421,16 @@
       <workItem from="1599888292515" duration="291000" />
       <workItem from="1599888612162" duration="10699000" />
       <workItem from="1600217320353" duration="620000" />
+      <workItem from="1600488464991" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65713000" />
+    <option name="totallyTimeSpent" value="66307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -653,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thongbao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="400" column="24" selection-start-line="400" selection-start-column="24" selection-end-line="400" selection-end-column="24" />
+        <state relative-caret-position="2592">
+          <caret line="446" column="26" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="26" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -674,7 +677,7 @@
     <entry file="file://$PROJECT_DIR$/donhangcuatoi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1593">
-          <caret line="409" column="69" selection-start-line="409" selection-start-column="69" selection-end-line="409" selection-end-column="69" />
+          <caret line="412" column="69" selection-start-line="412" selection-start-column="69" selection-end-line="412" selection-end-column="69" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -695,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom-bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4428">
-          <caret line="164" column="31" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="31" />
+        <state relative-caret-position="4536">
+          <caret line="168" column="31" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -717,7 +720,7 @@
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="461" column="17" selection-start-line="461" selection-start-column="17" selection-end-line="461" selection-end-column="17" />
+          <caret line="785" column="23" selection-start-line="785" selection-start-column="23" selection-end-line="785" selection-end-column="23" />
         </state>
       </provider>
     </entry>

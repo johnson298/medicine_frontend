@@ -747,15 +747,17 @@ input#search_chat {
 
 .chat-side-left .chat-box .list-sms {
     height: calc(100% - 43px);
+}
+.scroll-custom{
     overflow-y: scroll;
 }
+
 .scroll-custom::-webkit-scrollbar-track,
 .scroll-custom::-webkit-scrollbar,
 .scroll-custom::-webkit-scrollbar-thumb{
     width: 6px;
     opacity: 0;
 }
-
 
 .scroll-custom:hover::-webkit-scrollbar-track
 {
@@ -777,6 +779,37 @@ input#search_chat {
     border-radius: 5px;
     opacity: 1;
 }
+.scroll-custom-x{
+    overflow-x: scroll;
+}
+
+.scroll-custom-x::-webkit-scrollbar-track,
+.scroll-custom-x::-webkit-scrollbar,
+.scroll-custom-x::-webkit-scrollbar-thumb{
+    height: 6px;
+    opacity: 0;
+}
+
+.scroll-custom-x:hover::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    opacity: 1;
+}
+
+.scroll-custom-x:hover::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #F5F5F5;
+    opacity: 1;
+}
+
+.scroll-custom-x:hover::-webkit-scrollbar-thumb
+{
+    background-color: #6f6f6f;
+    border-radius: 5px;
+    opacity: 1;
+}
 .chat-search {
     height: 75px;
 }
@@ -784,4 +817,129 @@ input#search_chat {
 .chat-list-user {
     height: calc(100% - 105px);
     overflow-y: scroll;
+}
+.cart-info {
+    display: flex;
+    line-height: 17px;
+    font-weight: 500;
+    text-align: left;
+    align-items: center;
+    padding: 5px;
+}
+
+.cart-info img {
+    width: 60px;
+    height: auto;
+}
+
+.cart-info span {
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.input-cart-tbl {
+    width: 110px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.tbl-cart td {
+    text-align: center;
+}
+
+.tbl-cart th {
+    padding: 6px;
+    background: #c6ddf8;
+}
+.cart-list {
+    padding: 15px;
+    height: calc(100% - 40px);
+}
+.tbl-cart{
+    background-color: #fff;
+    overflow-x: scroll;
+}
+.input-cart-tbl:focus {
+    outline: none;
+}
+.tbl-cart table {
+    min-width: 650px;
+}
+.cart-box {
+    background: whitesmoke;
+}
+.show-image-select {
+    position: absolute;
+    width: 100%;
+    bottom: 42px;
+    z-index: 10;
+    border-top: 1px solid #c6c6c6;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+}
+
+.list-sms__item {
+    margin-bottom: 10px;
+}
+
+.show-image-select .img-item {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+.show-image-select .img-item .close-img{
+    position: absolute;
+    right: 0;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cart-bottom {
+    height: 245px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    padding: 0 15px;
+}
+
+.cart-list {
+    position: relative;
+}
+
+.tbl-cart {
+    height: calc(100% - 245px);
+}
+.show-image-select .img-item img {
+    width: 100%;
+    height: auto;
+}
+.list-mess-wrapper {
+    height: 100%;
+    padding-bottom: 50px;
+}
+.cart-calculator {
+    background: #fff;
+    padding: 6px;
+}
+
+.cart-bottom-footer {
+    background: #fff;
+    margin-top: 5px;
+    padding: 6px;
+}
+.cart-calculator__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.cart-calculator__item strong {
+    font-weight: bold;
+    font-size: 16px;
 }
