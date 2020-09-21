@@ -32,6 +32,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <!--custom css-->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="cms-index-index">
 <div class="page">
@@ -41,17 +42,15 @@
             <div class="container">
                 <div class="row">
                     <!-- Header Language -->
-                    <div class="col-xs-6">
-                    </div>
-                    <div class="col-xs-6">
+                    <div class="col-sm-12">
                         <!-- Header Top Links -->
                         <div class="toplinks">
-                            <div class="links">
+                            <div class="links d-flex justify-content-end">
                                 <div class="check"><a title="Checkout" href="checkout.html">
                                     <i class="far fa-envelope"></i>
-                                    <span class="hidden-xs">etado@gmail.com</span></a>
+                                    <span class="">etado@gmail.com</span></a>
                                 </div>
-                                <div class="phone hidden-xs">Support: 095864755</div>
+                                <div class="phone">Support: 095864755</div>
                             </div>
                         </div>
                         <!-- End Header Top Links -->
@@ -60,8 +59,8 @@
             </div>
         </div>
         <div class="header container header-middle">
-            <div class="row h-100 align-items-center d-flex ">
-                <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12 h-100">
+            <div class="row h-100 align-items-center d-flex flex-wrap">
+                <div class="col-lg-3 col-sm-12 col-md-3 col-xs-12 h-100 h-sm-auto">
                     <!-- Header Logo -->
                     <div class="h-100 d-flex align-items-center">
                         <a class="logo m-0 p-0" title="Quầy thuốc sỉ" href="index.html">
@@ -70,7 +69,7 @@
                     </div>
                     <!-- End Header Logo -->
                 </div>
-                <div class="col-lg-6 col-sm-4 col-md-5 col-xs-12">
+                <div class="col-lg-5 col-sm-12 col-md-5 col-xs-12">
                     <!-- Search-col -->
                     <div class="search-box m-0">
                         <form action="" method="POST" id="search_mini_form" name="Categories">
@@ -81,24 +80,24 @@
                     <!-- End Search-col -->
                 </div>
                 <!-- Top Cart -->
-                <div class="col-lg-3 col-sm-5 col-md-4 col-xs-12">
-                    <div class="top-cart-contain mt-0">
-                        <div class="mini-cart">
-                            <div class="basket dropdown-toggle">
-                                <a href="giohang.html" class="cart-header"> <i class="icon-cart"></i><span id="cart-total"> 2 </span></a></div>
-                        </div>
-                        <div id="ajaxconfig_info" style="display:none"> <a href="#/"></a>
-                            <input value="" type="hidden">
-                            <input id="enable_module" value="1" type="hidden">
-                            <input class="effect_to_cart" value="1" type="hidden">
-                            <input class="title_shopping_cart" value="Go to shopping cart" type="hidden">
+                <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                    <div class="actions-head">
+                        <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
+                        <div class="signup mt-0"><a title="Login" href="register.html"><span class="slash">|</span><span>Đăng ký</span><span class="slash">|</span></a></div>
+                        <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
+                        <div class="top-cart-contain mt-0">
+                            <div class="mini-cart">
+                                <div class="basket dropdown-toggle">
+                                    <a href="giohang.html" class="cart-header"> <i class="icon-cart"></i><span id="cart-total"> 2 </span></a></div>
+                            </div>
+                            <div id="ajaxconfig_info" style="display:none"> <a href="#/"></a>
+                                <input value="" type="hidden">
+                                <input id="enable_module" value="1" type="hidden">
+                                <input class="effect_to_cart" value="1" type="hidden">
+                                <input class="title_shopping_cart" value="Go to shopping cart" type="hidden">
+                            </div>
                         </div>
                     </div>
-                    <div class="signup mt-0"><a title="Login" href="login.html"><span>Đăng ký</span></a></div>
-                    <span class="or mt-0"> | </span>
-                    <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
-                    <span class="or mt-0"> | </span>
-                    <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
                 </div>
                 <!-- End Top Cart -->
             </div>

@@ -943,3 +943,27 @@ input#search_chat {
     font-weight: bold;
     font-size: 16px;
 }
+.new-label {
+    border-color: #4CAF50 !important;
+    color: #4CAF50 !important;
+    background-color: transparent !important;
+}
+
+.sale-label {
+    width: auto !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #d12631;
+}
+.slash {
+    margin: 0 4px;
+}
+.actions-head > div {
+    float: inherit !important;
+    position: inherit;
+}
+
+.actions-head {
+    display: flex;
+    justify-content: flex-end;
+}

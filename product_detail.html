@@ -32,6 +32,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <!--custom css-->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/blogmate.css">
 </head>
 <body class="cms-index-index">
@@ -42,17 +43,15 @@
             <div class="container">
                 <div class="row">
                     <!-- Header Language -->
-                    <div class="col-xs-6">
-                    </div>
-                    <div class="col-xs-6">
+                    <div class="col-sm-12">
                         <!-- Header Top Links -->
                         <div class="toplinks">
-                            <div class="links">
+                            <div class="links d-flex justify-content-end">
                                 <div class="check"><a title="Checkout" href="checkout.html">
                                     <i class="far fa-envelope"></i>
-                                    <span class="hidden-xs">etado@gmail.com</span></a>
+                                    <span class="">etado@gmail.com</span></a>
                                 </div>
-                                <div class="phone hidden-xs">Support: 095864755</div>
+                                <div class="phone">Support: 095864755</div>
                             </div>
                         </div>
                         <!-- End Header Top Links -->
@@ -61,8 +60,8 @@
             </div>
         </div>
         <div class="header container header-middle">
-            <div class="row h-100 align-items-center d-flex ">
-                <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12 h-100">
+            <div class="row h-100 align-items-center d-flex flex-wrap">
+                <div class="col-lg-3 col-sm-12 col-md-3 col-xs-12 h-100 h-sm-auto">
                     <!-- Header Logo -->
                     <div class="h-100 d-flex align-items-center">
                         <a class="logo m-0 p-0" title="Quầy thuốc sỉ" href="index.html">
@@ -71,7 +70,7 @@
                     </div>
                     <!-- End Header Logo -->
                 </div>
-                <div class="col-lg-6 col-sm-4 col-md-5 col-xs-12">
+                <div class="col-lg-5 col-sm-12 col-md-5 col-xs-12">
                     <!-- Search-col -->
                     <div class="search-box m-0">
                         <form action="" method="POST" id="search_mini_form" name="Categories">
@@ -82,24 +81,24 @@
                     <!-- End Search-col -->
                 </div>
                 <!-- Top Cart -->
-                <div class="col-lg-3 col-sm-5 col-md-4 col-xs-12">
-                    <div class="top-cart-contain mt-0">
-                        <div class="mini-cart">
-                            <div class="basket dropdown-toggle">
-                                <a href="giohang.html" class="cart-header"> <i class="icon-cart"></i><span id="cart-total"> 2 </span></a></div>
-                        </div>
-                        <div id="ajaxconfig_info" style="display:none"> <a href="#/"></a>
-                            <input value="" type="hidden">
-                            <input id="enable_module" value="1" type="hidden">
-                            <input class="effect_to_cart" value="1" type="hidden">
-                            <input class="title_shopping_cart" value="Go to shopping cart" type="hidden">
+                <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                    <div class="actions-head">
+                        <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
+                        <div class="signup mt-0"><a title="Login" href="register.html"><span class="slash">|</span><span>Đăng ký</span><span class="slash">|</span></a></div>
+                        <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
+                        <div class="top-cart-contain mt-0">
+                            <div class="mini-cart">
+                                <div class="basket dropdown-toggle">
+                                    <a href="giohang.html" class="cart-header"> <i class="icon-cart"></i><span id="cart-total"> 2 </span></a></div>
+                            </div>
+                            <div id="ajaxconfig_info" style="display:none"> <a href="#/"></a>
+                                <input value="" type="hidden">
+                                <input id="enable_module" value="1" type="hidden">
+                                <input class="effect_to_cart" value="1" type="hidden">
+                                <input class="title_shopping_cart" value="Go to shopping cart" type="hidden">
+                            </div>
                         </div>
                     </div>
-                    <div class="signup mt-0"><a title="Login" href="login.html"><span>Đăng ký</span></a></div>
-                    <span class="or mt-0"> | </span>
-                    <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
-                    <span class="or mt-0"> | </span>
-                    <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
                 </div>
                 <!-- End Top Cart -->
             </div>
@@ -540,159 +539,31 @@
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <div class="box-additional">
-                                    <div class="related-pro wow">
+                                <section class="slider-main container">
+                                    <div class="new-pro-slider small-pr-slider" style="overflow:visible">
                                         <div class="slider-items-products">
                                             <div class="new_title center">
                                                 <h2>Sản phẩm liên quan</h2>
                                             </div>
-                                            <div id="related-products-slider" class="product-flexslider hidden-buttons">
-                                                <div class="slider-items slider-width-col4">
-
+                                            <div class="product-flexslider hidden-buttons">
+                                                <div class="slider-items slider-width-col3">
                                                     <!-- Item -->
                                                     <div class="item">
                                                         <div class="col-item">
-                                                            <div class="sale-label sale-top-right">Sale</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img src="products-images/sp.jpg" class="img-responsive" alt="a" /> </a></a>
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
                                                                 <div class="actions">
                                                                     <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
                                                                         <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
                                                             </div>
                                                             <div class="info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a href="#l" title=" Sample Product"> Sample Product </a> </div>
-                                                                    <!--item-title-->
-                                                                    <div class="item-content">
-                                                                        <div class="ratings">
-                                                                            <div class="rating-box">
-                                                                                <div style="width:60%" class="rating"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="price-box">
-                                                                            <p class="special-price"> <span class="price"> $45.00 </span> </p>
-                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> $50.00 </span> </p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!--item-content-->
-                                                                </div>
-                                                                <!--info-inner-->
-
-                                                                <!--actions-->
-
-                                                                <div class="clearfix"> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Item -->
-
-                                                    <!-- Item -->
-                                                    <div class="item">
-                                                        <div class="col-item">
-                                                            <div class="new-label new-top-right">New</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img src="products-images/sp.jpg" class="img-responsive" alt="a" /> </a></a>
-                                                                <div class="actions">
-                                                                    <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
-                                                                        <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
-                                                            </div>
-                                                            <div class="info">
-                                                                <div class="info-inner">
-                                                                    <div class="item-title"> <a href="#l" title=" Sample Product"> Sample Product </a> </div>
-                                                                    <!--item-title-->
-                                                                    <div class="item-content">
-                                                                        <div class="ratings">
-                                                                            <div class="rating-box">
-                                                                                <div style="width:60%" class="rating"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="price-box"> <span class="regular-price"> <span class="price">$422.00</span> </span> </div>
-                                                                    </div>
-                                                                    <!--item-content-->
-                                                                </div>
-                                                                <!--info-inner-->
-
-                                                                <!--actions-->
-
-                                                                <div class="clearfix"> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Item -->
-
-                                                    <!-- Item -->
-                                                    <div class="item">
-                                                        <div class="col-item">
-                                                            <div class="sale-label sale-top-right">Sale</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a></a>
-                                                                <div class="actions">
-                                                                    <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
-                                                                        <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
-                                                            </div>
-                                                            <div class="info">
-                                                                <div class="info-inner">
-                                                                    <div class="item-title"> <a title=" Sample Product" href="product-detail.html"> Sample Product </a> </div>
-                                                                    <!--item-title-->
-                                                                    <div class="item-content">
-                                                                        <div class="ratings">
-                                                                            <div class="rating-box">
-                                                                                <div class="rating" style="width:0%"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="price-box"> <span class="regular-price"> <span class="price">$50.00</span> </span> </div>
-                                                                    </div>
-                                                                    <!--item-content-->
-                                                                </div>
-                                                                <!--info-inner-->
-                                                                <div class="actions">
-                                                                    <button class="button btn-cart" title="Add to Cart" type="button"><span>Add to Cart</span></button>
-                                                                </div>
-                                                                <!--actions-->
-
-                                                                <div class="clearfix"> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Item -->
-
-                                                    <!-- Item -->
-                                                    <div class="item">
-                                                        <div class="col-item">
-                                                            <div class="sale-label sale-top-right">Sale</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a></a>
-                                                                <div class="actions">
-                                                                    <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
-                                                                        <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
-                                                            </div>
-                                                            <div class="info">
-                                                                <div class="info-inner">
-                                                                    <div class="item-title"> <a title=" Sample Product" href="product-detail.html"> Sample Product </a> </div>
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
                                                                     <!--item-title-->
                                                                     <div class="item-content">
                                                                         <div class="ratings">
@@ -701,172 +572,33 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="price-box">
-                                                                            <p class="special-price"> <span class="price"> $45.00 </span> </p>
-                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> $50.00 </span> </p>
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
                                                                         </div>
                                                                     </div>
                                                                     <!--item-content-->
                                                                 </div>
-                                                                <!--info-inner-->
-                                                                <div class="actions">
-                                                                    <button class="button btn-cart" title="Add to Cart" type="button"><span>Add to Cart</span></button>
-                                                                </div>
-                                                                <!--actions-->
-
                                                                 <div class="clearfix"> </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!-- End Item -->
-
-                                                    <!-- Item -->
                                                     <div class="item">
                                                         <div class="col-item">
-                                                            <div class="sale-label sale-top-right">Sale</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a></a>
+                                                            <div class="sale-label sale-top-right">Giảm giá</div>
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
                                                                 <div class="actions">
                                                                     <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
                                                                         <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
                                                             </div>
                                                             <div class="info">
                                                                 <div class="info-inner">
-                                                                    <div class="item-title"> <a title=" Sample Product" href="product-detail.html"> Sample Product </a> </div>
-                                                                    <!--item-title-->
-                                                                    <div class="item-content">
-                                                                        <div class="ratings">
-                                                                            <div class="rating-box">
-                                                                                <div class="rating" style="width:60%"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="price-box">
-                                                                            <p class="special-price"> <span class="price"> $45.00 </span> </p>
-                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> $50.00 </span> </p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!--item-content-->
-                                                                </div>
-                                                                <!--info-inner-->
-                                                                <div class="actions">
-                                                                    <button class="button btn-cart" title="Add to Cart" type="button"><span>Add to Cart</span></button>
-                                                                </div>
-                                                                <!--actions-->
-
-                                                                <div class="clearfix"> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Item -->
-
-                                                    <!-- Item -->
-                                                    <div class="item">
-                                                        <div class="col-item">
-                                                            <div class="new-label new-top-right">New</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a></a>
-                                                                <div class="actions">
-                                                                    <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
-                                                                        <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
-                                                            </div>
-                                                            <div class="info">
-                                                                <div class="info-inner">
-                                                                    <div class="item-title"> <a title=" Sample Product" href="product-detail.html"> Sample Product </a> </div>
-                                                                    <!--item-title-->
-                                                                    <div class="item-content">
-                                                                        <div class="ratings">
-                                                                            <div class="rating-box">
-                                                                                <div class="rating" style="width:60%"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="price-box"> <span class="regular-price"> <span class="price">$422.00</span> </span> </div>
-                                                                    </div>
-                                                                    <!--item-content-->
-                                                                </div>
-                                                                <!--info-inner-->
-                                                                <div class="actions">
-                                                                    <button class="button btn-cart" title="Add to Cart" type="button"><span>Add to Cart</span></button>
-                                                                </div>
-                                                                <!--actions-->
-
-                                                                <div class="clearfix"> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Item -->
-
-                                                    <!-- Item -->
-                                                    <div class="item">
-                                                        <div class="col-item">
-                                                            <div class="sale-label sale-top-right">Sale</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a></a>
-                                                                <div class="actions">
-                                                                    <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
-                                                                        <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
-                                                            </div>
-                                                            <div class="info">
-                                                                <div class="info-inner">
-                                                                    <div class="item-title"> <a title=" Sample Product" href="product-detail.html"> Sample Product </a> </div>
-                                                                    <!--item-title-->
-                                                                    <div class="item-content">
-                                                                        <div class="ratings">
-                                                                            <div class="rating-box">
-                                                                                <div class="rating" style="width:0%"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="price-box"> <span class="regular-price"> <span class="price">$50.00</span> </span> </div>
-                                                                    </div>
-                                                                    <!--item-content-->
-                                                                </div>
-                                                                <!--info-inner-->
-                                                                <div class="actions">
-                                                                    <button class="button btn-cart" title="Add to Cart" type="button"><span>Add to Cart</span></button>
-                                                                </div>
-                                                                <!--actions-->
-
-                                                                <div class="clearfix"> </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Item -->
-
-                                                    <!-- Item -->
-                                                    <div class="item">
-                                                        <div class="col-item">
-                                                            <div class="sale-label sale-top-right">Sale</div>
-                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product-detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a></a>
-                                                                <div class="actions">
-                                                                    <div class="actions-inner">
-                                                                        <button type="button" title="Add to Cart" class="button btn-cart"><span>Add to Cart</span></button>
-                                                                        <ul class="add-to-links">
-                                                                            <li><a title="Add to Wishlist" class="link-wishlist" href="wishlist.html"><span>Add to Wishlist</span></a></li>
-                                                                            <li><a title="Add to Compare" class="link-compare" href="compare.html"><span>Add to Compare</span></a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="qv-button-container"> <a class="qv-e-button btn-quickview-1" href="quick_view.html"><span><span>Quick View</span></span></a> </div>
-                                                            </div>
-                                                            <div class="info">
-                                                                <div class="info-inner">
-                                                                    <div class="item-title"> <a title=" Sample Product" href="product-detail.html"> Sample Product </a> </div>
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
                                                                     <!--item-title-->
                                                                     <div class="item-content">
                                                                         <div class="ratings">
@@ -875,29 +607,264 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="price-box">
-                                                                            <p class="special-price"> <span class="price"> $45.00 </span> </p>
-                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> $50.00 </span> </p>
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
                                                                         </div>
                                                                     </div>
                                                                     <!--item-content-->
                                                                 </div>
-                                                                <!--info-inner-->
-                                                                <div class="actions">
-                                                                    <button class="button btn-cart" title="Add to Cart" type="button"><span>Add to Cart</span></button>
-                                                                </div>
-                                                                <!--actions-->
-
                                                                 <div class="clearfix"> </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!-- End Item -->
-
+                                                    <div class="item">
+                                                        <div class="col-item">
+                                                            <div class="new-label new-top-right">mới</div>
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
+                                                                <div class="actions">
+                                                                    <div class="actions-inner">
+                                                                        <ul class="add-to-links">
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info-inner">
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
+                                                                    <!--item-title-->
+                                                                    <div class="item-content">
+                                                                        <div class="ratings">
+                                                                            <div class="rating-box">
+                                                                                <div class="rating" style="width:50%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--item-content-->
+                                                                </div>
+                                                                <div class="clearfix"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="col-item">
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
+                                                                <div class="actions">
+                                                                    <div class="actions-inner">
+                                                                        <ul class="add-to-links">
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info-inner">
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
+                                                                    <!--item-title-->
+                                                                    <div class="item-content">
+                                                                        <div class="ratings">
+                                                                            <div class="rating-box">
+                                                                                <div class="rating" style="width:50%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--item-content-->
+                                                                </div>
+                                                                <div class="clearfix"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="col-item">
+                                                            <div class="sale-label sale-top-right">Giảm giá</div>
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
+                                                                <div class="actions">
+                                                                    <div class="actions-inner">
+                                                                        <ul class="add-to-links">
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info-inner">
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
+                                                                    <!--item-title-->
+                                                                    <div class="item-content">
+                                                                        <div class="ratings">
+                                                                            <div class="rating-box">
+                                                                                <div class="rating" style="width:50%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--item-content-->
+                                                                </div>
+                                                                <div class="clearfix"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="col-item">
+                                                            <div class="new-label new-top-right">mới</div>
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
+                                                                <div class="actions">
+                                                                    <div class="actions-inner">
+                                                                        <ul class="add-to-links">
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info-inner">
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
+                                                                    <!--item-title-->
+                                                                    <div class="item-content">
+                                                                        <div class="ratings">
+                                                                            <div class="rating-box">
+                                                                                <div class="rating" style="width:50%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--item-content-->
+                                                                </div>
+                                                                <div class="clearfix"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="col-item">
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
+                                                                <div class="actions">
+                                                                    <div class="actions-inner">
+                                                                        <ul class="add-to-links">
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info-inner">
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
+                                                                    <!--item-title-->
+                                                                    <div class="item-content">
+                                                                        <div class="ratings">
+                                                                            <div class="rating-box">
+                                                                                <div class="rating" style="width:50%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--item-content-->
+                                                                </div>
+                                                                <div class="clearfix"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="col-item">
+                                                            <div class="sale-label sale-top-right">Giảm giá</div>
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
+                                                                <div class="actions">
+                                                                    <div class="actions-inner">
+                                                                        <ul class="add-to-links">
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info-inner">
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
+                                                                    <!--item-title-->
+                                                                    <div class="item-content">
+                                                                        <div class="ratings">
+                                                                            <div class="rating-box">
+                                                                                <div class="rating" style="width:50%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--item-content-->
+                                                                </div>
+                                                                <div class="clearfix"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="col-item">
+                                                            <div class="new-label new-top-right">mới</div>
+                                                            <div class="images-container"> <a class="product-image" title="Sample Product" href="product_detail.html"> <img alt="a" class="img-responsive" src="products-images/sp.jpg"> </a>
+                                                                <div class="actions">
+                                                                    <div class="actions-inner">
+                                                                        <ul class="add-to-links">
+                                                                            <li><a href="giohang.html" title="Thêm yêu thích" class="link-wishlist"><span>Thêm yêu thích</span></a></li>
+                                                                            <li><a href="javascript:void(0)" title="Lượt mua: 100" class="link-compare "><span>Lượt mua</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="qv-button-container"> <a href="giohang.html" class="qv-e-button btn-quickview-1"><span><span>Xem nhanh</span></span></a> </div>
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info-inner">
+                                                                    <div class="item-title"> <a title="Thuốc chống viêm BAGHJD19 100 (viên)" href="product_detail.html"> Thuốc chống viêm BAGHJD19 100 (viên) </a> </div>
+                                                                    <!--item-title-->
+                                                                    <div class="item-content">
+                                                                        <div class="ratings">
+                                                                            <div class="rating-box">
+                                                                                <div class="rating" style="width:50%"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="price-box">
+                                                                            <p class="special-price"> <span class="price"> 45.00&#8363; </span> </p>
+                                                                            <p class="old-price"> <span class="price-sep">-</span> <span class="price"> 50.00&#8363; </span> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--item-content-->
+                                                                </div>
+                                                                <div class="clearfix"> </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </section>
                             </div>
                         </div>
                     </div>
@@ -1017,6 +984,21 @@
 
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type='text/javascript'>
+    $(document).ready(function() {
+        $(".slider-main .slider-items").owlCarousel({
+            items: 6,
+            itemsDesktop: [1024, 4],
+            itemsDesktopSmall: [900, 3],
+            itemsTablet: [600, 2],
+            itemsMobile: [320, 1],
+            navigation: !0,
+            navigationText: ['<a class="flex-prev"></a>', '<a class="flex-next"></a>'],
+            slideSpeed: 500,
+            pagination: !1
+        })
+    })
+</script>
 </body>
 
 <!-- Mirrored from htmldemo.magikcommerce.com/ecommerce/inspire-html-template/furniture/product_detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Aug 2015 08:05:13 GMT -->

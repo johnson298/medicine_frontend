@@ -5472,26 +5472,6 @@ div.moreview_description.rtl {
 }
 /* 21a. Product Images */
 
-
-.product-view .new-label {
-	font-size: 11px;
-	color: #fff;
-	background: #ffc60a;
-	text-transform: uppercase;
-	padding: 0px;
-	text-align: center;
-	display: block;
-	position: absolute;
-	top: 0px;
-	z-index: 10000;
-	font-weight: bold;
-	letter-spacing: 1px;
-	line-height: normal;
-	width: 45px;
-	height: 25px;
-	line-height: 25px;
-	left: 15px;
-}
 .product-view {
 	margin: auto;
 	position: relative;
@@ -6595,7 +6575,7 @@ fieldset {
 }
 .availability-only-details tr.odd td.last {
 }
-/* Add to Cart */
+/* Mua hàng */
 
 .add-to-cart label {
 	color: #333;
@@ -6677,7 +6657,7 @@ fieldset {
 .product-view .add-to-cart .paypal-logo {
 	margin: 0;
 }
-/*  Add to Links + Add to Cart */
+/*  Add to Links + Mua hàng */
 .add-to-box {
 	margin: 15px 0 0px;
 	overflow: hidden;
