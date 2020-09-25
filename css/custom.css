@@ -171,7 +171,7 @@ input.input-text{
     height: auto;
 }
 .bg-white {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 .bg-blue{
     background-color: #2682d2;
