@@ -43,18 +43,23 @@
             <div class="container">
                 <div class="row">
                     <!-- Header Language -->
-                    <div class="col-sm-12">
+                    <div class="col-sm-6">
                         <!-- Header Top Links -->
                         <div class="toplinks">
-                            <div class="links d-flex justify-content-end">
-                                <div class="check"><a title="Checkout" href="checkout.html">
-                                    <i class="far fa-envelope"></i>
-                                    <span class="">etado@gmail.com</span></a>
-                                </div>
-                                <div class="phone">Support: 095864755</div>
+                            <div class="links d-flex justify-content-start">
+                                <a title="Checkout" href="shop_home.html"><span class="link">Kênh người bán</span></a><span class="slash">|</span>
+                                <a title="Checkout" href="#"><span class="link">Tải ứng dụng</span></a><span class="slash">|</span>
+                                <a title="Checkout" href="#"><span class="link">hotro@quaythuocsi.com</span></a>
                             </div>
                         </div>
                         <!-- End Header Top Links -->
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="actions-head">
+                            <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
+                            <div class="signup mt-0"><a title="Login" href="register.html"><span class="slash">|</span><span>Đăng ký</span><span class="slash">|</span></a></div>
+                            <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -70,22 +75,28 @@
                     </div>
                     <!-- End Header Logo -->
                 </div>
-                <div class="col-lg-5 col-sm-12 col-md-5 col-xs-12">
+                <div class="col-lg-8 col-sm-12 col-md-8 col-xs-12">
                     <!-- Search-col -->
                     <div class="search-box m-0">
                         <form action="" method="POST" id="search_mini_form" name="Categories">
                             <input type="text" placeholder="Tìm kiếm thuốc..." value="" maxlength="70" class="" name="search" id="search">
-                            <button id="submit-button" class="search-btn-bg"><span>Search</span></button>
+                            <button id="submit-button" class="search-btn-bg"><i class="fas fa-search"></i></button>
                         </form>
                     </div>
+                    <ul id="nav" class="hidden-xs">
+                        <li class="level0 parent drop-menu"><a href="index.html"><span>Thuốc bổ thận</span> </a></li>
+                        <li class="level0 parent drop-menu"><a href="index.html"><span>Thuốc giảm cân</span> </a></li>
+                        <li class="level0 parent drop-menu"><a href="index.html"><span>Thuốc thuốc bổ não</span> </a></li>
+                        <li class="level0 parent drop-menu"><a href="index.html"><span>Thuốc cúm</span> </a></li>
+                        <li class="level0 parent drop-menu"><a href="index.html"><span>Thuốc cúm</span> </a></li>
+                        <li class="level0 parent drop-menu"><a href="index.html"><span>Thuốc giảm cân</span> </a></li>
+                        <li class="level0 parent drop-menu"><a href="index.html"><span>Thuốc thuốc bổ não</span> </a></li>
+                    </ul>
                     <!-- End Search-col -->
                 </div>
                 <!-- Top Cart -->
-                <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                <div class="col-lg-1 col-sm-12 col-md-1 col-xs-12">
                     <div class="actions-head">
-                        <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
-                        <div class="signup mt-0"><a title="Login" href="register.html"><span class="slash">|</span><span>Đăng ký</span><span class="slash">|</span></a></div>
-                        <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
                         <div class="top-cart-contain mt-0">
                             <div class="mini-cart">
                                 <div class="basket dropdown-toggle">
@@ -105,265 +116,59 @@
         </div>
     </header>
     <!-- end header -->
-    <!-- Navbar -->
-    <nav>
-        <div class="container">
-            <div class="nav-inner">
-
-                <!-- mobile-menu -->
-                <div class="hidden-desktop" id="mobile-menu">
-                    <ul class="navmenu">
-                        <li>
-                            <div class="menutop">
-                                <div class="toggle"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></div>
-                                <h2>Menu</h2>
-                            </div>
-                            <ul style="display:none;" class="submenu">
-                                <li>
-                                    <ul class="topnav">
-                                        <li class="level0 nav-6 level-top first parent"> <a class="level-top" href="index.html"> <span>Home</span> </a>
-                                            <ul class="level0">
-                                                <li class="level1"><a href="http://htmldemo.magikcommerce.com/ecommerce/inspire-html-template/fashion/index.html"><span>Fashion Store</span></a> </li>
-                                                <li class="level1"><a href="http://htmldemo.magikcommerce.com/ecommerce/inspire-html-template/digital/index.html"><span>Digital Store</span></a> </li>
-                                                <li class="level1"><a href="index.html"><span>Furniture Store</span></a> </li>
-                                                <li class="level1"><a href="http://htmldemo.magikcommerce.com/ecommerce/inspire-html-template/jewellery/index.html"><span>Jewellery Store</span></a> </li>
-                                            </ul>
-                                        </li>
-                                        <li class="level0 nav-6 level-top"> <a class="level-top" href="#"> <span>Mỹ phẩm</span> </a>
-                                            <ul class="level0">
-                                                <li class="level1 first"><a href="grid.html"><span>Grid</span></a></li>
-                                                <li class="level1 nav-10-2"> <a href="list.html"> <span>List</span> </a> </li>
-                                                <li class="level1 nav-10-3"> <a href="product_detail.html"> <span>Product Detail</span> </a> </li>
-                                                <li class="level1 nav-10-4"> <a href="shopping_cart.html"> <span>Shopping Cart</span> </a> </li>
-                                                <li class="level1 first parent"><a href="checkout.html"><span>Checkout</span></a>
-                                                    <ul class="level2">
-                                                        <li class="level2 nav-2-1-1 first"><a href="checkout_method.html"><span>Checkout Method</span></a></li>
-                                                        <li class="level2 nav-2-1-5 last"><a href="checkout_billing-info.html"><span>Checkout Billing Info</span></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="level1 nav-10-4"> <a href="wishlist.html"> <span>Wishlist</span> </a> </li>
-                                                <li class="level1"> <a href="dashboard.html"> <span>Dashboard</span> </a> </li>
-                                                <li class="level1"> <a href="multiple_addresses.html"> <span>Multiple Addresses</span> </a> </li>
-                                                <li class="level1"> <a href="about.html"> <span>About us</span> </a> </li>
-                                                <li class="level1"><a href="compare.html"><span>Compare</span></a></li>
-                                                <li class="level1"><a href="delivery.html"><span>Delivery</span></a> </li>
-                                                <li class="level1"><a href="faq.html"><span>FAQ</span></a> </li>
-                                                <li class="level1"><a href="quick_view.html"><span>Quick View</span></a> </li>
-                                                <li class="level1"><a href="newsletter.html"><span>Newsletter</span></a> </li>
-                                                <li class="level1"><a href="contact_us.html"><span>Contact us</span></a> </li>
-                                                <li class="level1"><a href="sitemap.html"><span>Sitemap</span></a> </li>
-                                                <li class="level1"><a href="404error.html"><span>404 Error Page</span></a> </li>
-                                            </ul>
-                                        </li>
-                                        <li class="level0 nav-7 level-top parent"> <a class="level-top" href="grid.html"> <span>Thực phẩm chức năng</span> </a> </li>
-                                        <li class="level0 nav-8 level-top parent"> <a class="level-top" href="grid.html"> <span>Thuốc đông, tây y</span> </a> </li>
-                                        <li class="level0 parent drop-menu"><a href="blog.html"><span>Blog</span> </a>
-                                            <ul class="level1">
-                                                <li class="level1 first"><a href="blog_posts_table_view.html"><span>Table View</span></a></li>
-                                                <li class="level1 nav-10-2"> <a href="blog_single_post.html"> <span>Single Post</span> </a> </li>
-                                            </ul>
-                                        </li>
-                                        <li class="level0 nav-9 level-top last parent "> <a class="level-top" href="contact.html"> <span>Contact</span> </a> </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <!--navmenu-->
-                </div>
-                <!--End mobile-menu -->
-                <a class="logo-small" title="Magento Commerce" href="index.html">
-                    <img alt="Magento Commerce" src="images/logo-qt.png" class="logo-sm">
-                </a>
-                <ul id="nav" class="hidden-xs">
-                    <li class="level0 parent drop-menu"><a href="index.html" class="active"><span>Home</span> </a>
-                        <ul class="level1">
-                            <li class="level1"><a href="http://htmldemo.magikcommerce.com/ecommerce/inspire-html-template/fashion/index.html"><span>Fashion Store</span></a> </li>
-                            <li class="level1"><a href="http://htmldemo.magikcommerce.com/ecommerce/inspire-html-template/digital/index.html"><span>Digital Store</span></a> </li>
-                            <li class="level1"><a href="index.html"><span>Furniture Store</span></a> </li>
-                            <li class="level1"><a href="http://htmldemo.magikcommerce.com/ecommerce/inspire-html-template/jewellery/index.html"><span>Jewellery Store</span></a> </li>
-                        </ul>
-                    </li>
-                    <li class="level0 parent drop-menu"><a href="#"><span>Mỹ phẩm</span> </a>
-                        <ul class="level1">
-                            <li class="level1 first"><a href="grid.html"><span>Dưỡng da</span></a></li>
-                            <li class="level1 nav-10-2"> <a href="list.html"> <span>Dưỡng da</span> </a> </li>
-                            <li class="level1 first parent"><a href="checkout.html"><span>Dưỡng da</span> <i class="fas fa-caret-right"></i></a>
-                                <ul class="level2">
-                                    <li class="level2 nav-2-1-1 first"><a href="checkout_method.html"><span>Checkout Method</span></a></li>
-                                    <li class="level2 nav-2-1-5 last"><a href="checkout_billing-info.html"><span>Checkout Billing Info</span></a></li>
-                                </ul>
-                            </li>
-                            <li class="level1 nav-10-4"> <a href="wishlist.html"> <span>Wishlist</span> </a> </li>
-                        </ul>
-                    </li>
-                    <li class="level0 nav-5 level-top first"> <a href="grid.html" class="level-top"> <span>Thực phẩm chức năng</span> </a>
-                        <div class="level0-wrapper dropdown-6col" style="display:none;">
-                            <div class="level0-wrapper2">
-                                <div class="nav-block nav-block-center grid12-8 itemgrid itemgrid-4col">
-                                    <ul class="level0">
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Clutch Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Diaper Bags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Hobo Handbags</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Beaded Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Fabric Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Leather Handbags</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Flat Shoes</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Flat Sandals</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Boots</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Heels</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Jwellery</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bracelets</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Necklaces &amp; Pendants</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Pendants</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Pins &amp; Brooches</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--nav-block nav-block-right std grid12-4-->
-                            </div>
-                        </div>
-                    </li>
-                    <li class="level0 nav-7 level-top parent"> <a href="grid.html" class="level-top"> <span>Thuốc đông, tây y</span> </a>
-                        <div class="level0-wrapper dropdown-6col" style="display:none;">
-                            <div class="level0-wrapper2">
-                                <div class="nav-block nav-block-center grid12-8 itemgrid itemgrid-4col">
-                                    <ul class="level0">
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Clutch Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Diaper Bags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Hobo Handbags</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Beaded Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Fabric Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Leather Handbags</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Flat Shoes</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Flat Sandals</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Boots</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Heels</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Jwellery</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bracelets</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Necklaces &amp; Pendants</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Pendants</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Pins &amp; Brooches</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--nav-block nav-block-right std grid12-4-->
-                            </div>
-                        </div>
-                    </li>
-                    <li class="level0 nav-5 level-top first"> <a class="level-top" href="grid.html"> <span>Thuốc bôi</span> </a>
-                        <div class="level0-wrapper dropdown-6col" style="display:none;">
-                            <div class="level0-wrapper2">
-                                <div class="nav-block nav-block-center grid12-8 itemgrid itemgrid-4col">
-                                    <ul class="level0">
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Clutch Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Diaper Bags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Hobo Handbags</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Beaded Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Fabric Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Handbags</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Leather Handbags</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Thuốc A</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Flat Shoes</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Flat Sandals</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Boots</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Heels</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                        <li class="level1 nav-6-1 parent item"> <a href="grid.html"><span>Jwellery</span></a>
-                                            <!--sub sub category-->
-                                            <ul class="level1">
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bracelets</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Necklaces &amp; Pendants</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Pendants</span></a> </li>
-                                                <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Pins &amp; Brooches</span></a> </li>
-                                            </ul>
-                                            <!--sub sub category-->
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--nav-block nav-block-right std grid12-4-->
-                            </div>
-                        </div>
-                    </li>
-                    <li class="level0 parent drop-menu"><a href="blog.html"><span>Blog</span> </a>
-                        <ul style="display: none;" class="level1">
-                            <li class="level1 first"><a href="blog_posts_table_view.html"><span>Table View</span></a> </li>
-                            <li class="level1 parent"><a href="blog_single_post.html"><span>Single Post</span></a> </li>
-                        </ul>
-                    </li>
-                    <li class="nav-custom-link level0 level-top parent"> <a class="level-top cursor-pointer" href="nhathuoc.html"><span>Nhà thuốc</span></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- end nav -->
     <section class="main-container col1-layout">
         <div class="main container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="account-login p-4">
+                        <div class="page-title p-0 text-center">
+                            <h4 class="mt-0 text-blue font-weight-bold"><i class="fas fa-user-plus"></i> Đăng ký tài khoản</h4>
+                        </div>
+                        <fieldset class="col2-set">
+                            <div class="registered-users">
+                                <div id="wizards">
+                                    <div class="step-wizard" role="navigation">
+                                        <div class="progress">
+                                            <div class="progressbar empty"></div>
+                                            <div id="prog" class="progressbar"></div>
+                                        </div>
+                                        <ul>
+                                            <li class="active">
+                                                <button id="step1">
+                                                    <div class="step">1</div>
+                                                    <div class="title">Shipping Information</div>
+                                                </button>
+                                            </li>
+                                            <li class="">
+                                                <button id="step2">
+                                                    <div class="step">2</div>
+                                                    <div class="title">Billing Information</div>
+                                                </button>
+                                            </li>
+                                            <li class="">
+                                                <button id="step3">
+                                                    <div class="step">3</div>
+                                                    <div class="title">Payment Details</div>
+                                                </button>
+                                            </li>
+                                            <li class="">
+                                                <button id="step4">
+                                                    <div class="step">4</div>
+                                                    <div class="title">Review & Place Order</div>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="btn" id="prev">prev</button>
+                                        <button class="btn" id="next">next</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
             <div class="row d-flex justify-content-center flex-wrap">
                 <div class="col-sm-12 col-md-8">
                     <div class="account-login p-4">
@@ -511,5 +316,191 @@
 
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"></script>
 </body>
+<script>
+    $(document).ready(function() {
+        function setClasses(index, steps) {
+            if (index < 0 || index > steps) return;
+            if(index == 0) {
+                $("#prev").prop('disabled', true);
+            } else {
+                $("#prev").prop('disabled', false);
+            }
+            if(index == steps) {
+                $("#next").text('done');
+            } else {
+                $("#next").text('next');
+            }
+            $(".step-wizard ul li").each(function() {
+                $(this).removeClass();
+            });
+            $(".step-wizard ul li:lt(" + index + ")").each(function() {
+                $(this).addClass("done");
+            });
+            $(".step-wizard ul li:eq(" + index + ")").addClass("active")
+            var p = index * (100 / steps);
+            $("#prog").width(p + '%');
+        }
+        $(".step-wizard ul button").click(function() {
+            var step = $(this).find("div.step")[0].innerText;
+            var steps = $(".step-wizard ul li").length;
+            setClasses(step - 1, steps - 1)
+        });
+        $("#prev").click(function(){
+            var step = $(".step-wizard ul li.active div.step")[0].innerText;
+            var steps = $(".step-wizard ul li").length;
+            setClasses(step - 2, steps - 1);
+        });
+        $("#next").click(function(){
+            if ($(this).text() == 'done') {
+                alert("submit the form?!?")
+            } else {
+                var step = $(".step-wizard ul li.active div.step")[0].innerText;
+                var steps = $(".step-wizard ul li").length;
+                setClasses(step, steps - 1);
+            }
+        });
+
+        // initial state setup
+        setClasses(0, $(".step-wizard ul li").length);
+    });
+</script>
+<style>
+    #wizards {
+        position: relative;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .buttons {
+        position: absolute;
+        top: 180px;
+        text-align: center;
+        width: 100%;
+    }
+    .step-wizard .btn {
+        width: 50px;
+        height: 30px;
+    }
+    .step-wizard {
+        display: inline-block;
+        position: relative;
+        width: 85%;
+    }
+    .step-wizard .progress {
+        /* position: absolute; */
+        top: 35px;
+        left: 12.5%;
+        width: 75%;
+    }
+    .step-wizard .progressbar {
+        position: absolute;
+        background-color: #3B5343;
+        opacity: 1;
+        height: 3px;
+        width: 0%;
+        -webkit-transition: width 0.6s ease;
+        -o-transition: width 0.6s ease;
+        transition: width 0.6s ease;
+    }
+    .step-wizard .progressbar.empty {
+        opacity: 1;
+        width: 100%;
+        background-color: #d0d0d0;
+    }
+    .step-wizard ul {
+        /* position: absolute; */
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        left: -2%;
+    }
+    .step-wizard li {
+        display: inline-block;
+        text-align: center;
+        width: 24%;
+    }
+    .step-wizard li .step {
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid;
+        border-color: #d0d0d0;
+        background: #ffffff;
+        -webkit-transition: background-color 0.6s ease, border-color 0.6s ease;
+        -o-transition: background-color 0.6s ease, border-color 0.6s ease;
+        transition: background-color 0.6s ease, border-color 0.6s ease;
+    }
+    .step-wizard li .title {
+        text-decoration: underline;
+        width: 100%;
+        padding-top: 10px;
+        color: #767676;
+        -webkit-transition: color 0.6s ease;
+        -o-transition: color 0.6s ease;
+        transition: color 0.6s ease;
+    }
+    .step-wizard li.active .step {
+        border-color: #3B5343;
+        color: #3b5343;
+    }
+    .step-wizard li.active .title {
+        text-decoration: none;
+        color: #3b5343;
+        font-weight: bold;
+    }
+    .step-wizard li.done .title {
+        color: #3b5343;
+    }
+    .step-wizard li.done .title:hover {
+        color: #3B5343;
+    }
+    .step-wizard li.done .step {
+        color: white;
+        background-color: #3B5343;
+        border-color: #3B5343;
+    }
+    .step-wizard li > button {
+        background: none;
+        border: none;
+        display: block;
+        width: 100%;
+        color: #777;
+        position: relative;
+        text-align: center;
+    }
+    .step-wizard li > button:hover .step {
+        border-color: #3b5343;
+        background: #eee;
+        color: #3b5343;
+    }
+    .step-wizard li > button:hover .title {
+        color: #3b5343;
+    }
+    @media only screen and (max-width: 1200px) {
+        .step-wizard li {
+            width: 24%;
+        }
+    }
+    @media only screen and (max-width: 375px) {
+        .step-wizard li {
+            width: 22%;
+        }
+    }
+    li.done button div.step {
+        font-size: 0;
+    }
+    li.done button div.step::before {
+        content: "\2713 ";
+        font-size: 18px;
+    }
+
+</style>
 </html>

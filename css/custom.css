@@ -16,6 +16,7 @@ ul.shop-more li,
 .header-container .signup,
 .product-view .short-description,
 .box-category > ul > li ul > li > a,
+.account-login .content .form-list label,
 .side-nav-categories ul li a {
     font-size: 14px;
 }
@@ -32,13 +33,14 @@ ul.shop-more li,
 
 #nav > li > a{
     font-size: 13px;
-    padding: 7px 0px 5px;
 }
 #recently-viewed-items.block-list-profile li {
     padding: 12px 5px !important;
 }
 #nav > li > a > span{
-    padding: 0 12px;
+    text-transform: capitalize;
+    padding: 0;
+    font-size: 12px;
 }
 
 strong {
@@ -54,7 +56,7 @@ strong {
     flex: 1;
 }
 .header-container {
-    background: #2682d2;
+    background: linear-gradient(-180deg,#0a64b4,#318dde);
 }
 .logo-lg {
     width: 100%;
@@ -957,6 +959,7 @@ input#search_chat {
 }
 .slash {
     margin: 0 4px;
+    color: rgba(255,255,255,.22);
 }
 .actions-head > div {
     float: inherit !important;
@@ -966,4 +969,46 @@ input#search_chat {
 .actions-head {
     display: flex;
     justify-content: flex-end;
+    padding-top: 5px;
+}
+
+.toplinks .link{
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+}
+.header-top {
+    height: 28px;
+}
+.actions-head .profile a {
+    display: flex;
+    font-weight: bold;
+    color: #fff;
+}
+
+.actions-head .profile a img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    transform: translateY(3px);
+}
+
+.actions-head a {
+    font-size: 12px;
+}
+.mini-cart .basket a i {
+    font-size: 15px !important;
+}
+header #nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header .icon-cart:before {
+    font-size: 25px;
+}
+
+.cart-header #cart-total {
+    right: 4px;
 }
