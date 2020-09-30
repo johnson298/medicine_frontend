@@ -161,7 +161,6 @@ legend {
 .main-container {
     background-color: #fff;
     min-height: 400px;
-    padding: 20px 0 0px;
 }
 /* 3. Header */
 .logo {
@@ -8249,9 +8248,9 @@ button.button.btn-proceed-checkout span {
 }
 /* 33. Brand Logo */
 .brand-logo {
-    background-color: #fff;
     margin: 0px 0px 0px 0px;
-    padding: 25px 0px 30px 0px;
+    background: whitesmoke;
+    padding: 15px 0;
 }
 .brand-logo .container {
     padding: 0px 50px;
@@ -9020,7 +9019,7 @@ a.button.wishlist {
 /* 39. Footer */
 
 .footer {
-    background: none repeat scroll 0 0 #186db7;
+    background: #fff;
 }
 .footer-top {
     background-color: #2682d2;
@@ -9063,7 +9062,7 @@ a.button.wishlist {
     margin: auto;
     font-style: normal;
     line-height: 1.5em;
-    color: #fff;
+    color: rgb(0 0 0 / 82%);
     padding-top: 5px;
     margin-top: 10px;
     text-align: left;
@@ -9077,8 +9076,8 @@ a.button.wishlist {
     margin: 10px 0;
 }
 .footer a, .footer p {
-    color: #caf4a5;
-    font-size: 12px;
+    color: rgb(0 0 0 / 82%);
+    font-size: 12.5px !important;
     padding-bottom: 5px;
     padding-top: 5px;
 }
@@ -9104,11 +9103,11 @@ a.button.wishlist {
     padding: 5px 0px;
 }
 .footer-middle .links li a {
-    color: #caf4a5;
+    color: rgb(0 0 0 / 82%);
     transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 .footer-middle .links li a:hover {
-    color: #fff;
+    color: #2682d2;
     text-decoration: none;
 }
 .footer-middle .links li a:before {
@@ -9118,14 +9117,15 @@ a.button.wishlist {
     display: inline-block;
     cursor: pointer;
     line-height: 20px;
-    color: #caf4a5;
+    color: #727272;
     margin-right: 5px;
+    font-weight: bold;
 }
 .add-icon:before {
     content: "\f041";
     font-family: FontAwesome;
     font-size: 15px;
-    color: #186db7;
+    color: #ffffff;
     height: 35px;
     width: 35px;
     line-height: 35px;
@@ -9136,13 +9136,13 @@ a.button.wishlist {
     margin-right: 10px;
     border-radius: 30px;
     border-radius: 25px;
-    background: #fff
+    background: #2682d2;
 }
 .email-icon:before {
     content: "\f0e0";
     font-family: FontAwesome;
     font-size: 14px;
-    color: #186db7;
+    color: #ffffff;
     height: 35px;
     width: 35px;
     margin-right: 5px;
@@ -9152,14 +9152,14 @@ a.button.wishlist {
     font-style: normal;
     text-align: center;
     margin-right: 10px;
-    background: #fff;
-    border-radius: 25px
+    background: #2682d2;
+    border-radius: 25px;
 }
 .phone-icon:before {
     content: "\f095";
     font-family: FontAwesome;
     font-size: 15px;
-    color: #186db7;
+    color: #ffffff;
     height: 35px;
     width: 35px;
     margin-right: 5px;
@@ -9169,8 +9169,8 @@ a.button.wishlist {
     font-style: normal;
     text-align: center;
     margin-right: 10px;
-    background: #fff;
-    border-radius: 25px
+    background: #2682d2;
+    border-radius: 25px;
 }
 .email-footer {
     overflow: hidden;
@@ -9180,18 +9180,13 @@ a.button.wishlist {
 .email-footer a {
     font-size: 12px;
     line-height: 35px;
-    color: #caf4a5
 }
 .phone-footer {
     overflow: hidden;
     font-size: 12px;
     line-height: 35px;
-    color: #fff;
     margin-bottom: 10px;
     margin-top: 12px;
-}
-.coppyright {
-    color: #caf4a5;
 }
 .footer-bottom .company-links ul {
     padding: 0px;

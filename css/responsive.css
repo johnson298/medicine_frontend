@@ -53,5 +53,7 @@
     .notification-view{
         display: none;
     }
-
+    .list-cate .col-item {
+        width: calc(100% / 3);
+    }
 }
