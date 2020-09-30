@@ -1134,6 +1134,8 @@ header #nav {
 .qc-thuoc {
     height: 100%;
     padding-top: 15px;
+    max-height: 555px;
+    overflow: hidden;
 }
 
 .qc-thuoc img {
@@ -1174,4 +1176,8 @@ section.slider-main .slider-items {}
 
 .slider-items-products:hover .owl-buttons a {
     opacity: 1;
+}
+.brand-logo .owl-item img {
+    width: 100%;
+    height: auto;
 }
