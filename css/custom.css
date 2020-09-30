@@ -30,7 +30,60 @@ ul.shop-more li,
     font-size: 14px;
     font-weight: normal;
 }
+.btn-success__blue {
+    border: 2px solid #2480d0;
+    background-color: #2a86d6;
+    color: #fff;
+}
+.setup-content .pager li .button {
+    border-radius: 2px;
+}
+.register-form {
+    margin-top: 20px;
+}
+.qc-thuoc img {
+    width: 100%;
+}
+.panel.setup-content {
+    border: none !important;
+    padding: 10px 0;
+}
+.actions-head .profile a i {
+    margin-top: 4px;
+    margin-right: 4px;
+    font-size: 13px;
+}
+.setup-content .pager .button {
+    padding: 4px 20px !important;
+}
+.setup-content .pager li .nextBtn {
+    background: #2a86d6;
+    color: #fff;
+}
+.stepwizard .progress-bar-success {
+    background: #2a86d6;
+}
+.register-form .pager {
+    display: flex;
+    justify-content: center;
+}
 
+.register-form .pager li {
+    margin-right: 12px;
+}
+.stepwizard-row.setup-panel p small {
+    font-weight: 500;
+    color: #454545;
+}
+
+.stepwizard-step .btn-circle {
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.register-form .input-text {
+    background: #fff !important;
+}
 #nav > li > a{
     font-size: 13px;
 }

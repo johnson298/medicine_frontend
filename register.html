@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="actions-head">
-                            <div class="profile mt-0"><a title="Profile" href="profile.html"><img src="images/thuocgiamcan.png" alt=""><span>Quỳnh</span></a></div>
+                            <div class="profile mt-0"><a title="Profile" href="profile.html"><i class="far fa-user-circle"></i> <span>Quỳnh</span></a></div>
                             <div class="signup mt-0"><a title="Login" href="register.html"><span class="slash">|</span><span>Đăng ký</span><span class="slash">|</span></a></div>
                             <div class="login mt-0"><a title="Login" href="login.html"><span>Đăng nhập</span></a></div>
                         </div>
@@ -120,125 +120,109 @@
         <div class="main container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="account-login p-4">
-                        <div class="page-title p-0 text-center">
-                            <h4 class="mt-0 text-blue font-weight-bold"><i class="fas fa-user-plus"></i> Đăng ký tài khoản</h4>
-                        </div>
-                        <fieldset class="col2-set">
-                            <div class="registered-users">
-                                <div id="wizards">
-                                    <div class="step-wizard" role="navigation">
-                                        <div class="progress">
-                                            <div class="progressbar empty"></div>
-                                            <div id="prog" class="progressbar"></div>
+                    <div class="container bg-white">
+                        <div class="row">
+                            <div class="col-md-8 col-md-push-2">
+                                <div class="page-title py-4 text-center">
+                                    <h4 class="mt-0 text-blue font-weight-bold"><i class="fas fa-user-plus"></i> Đăng ký tài khoản</h4>
+                                </div>
+                                <div class="stepwizard">
+                                    <div class="progress center-block">
+                                        <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 13%">
                                         </div>
-                                        <ul>
-                                            <li class="active">
-                                                <button id="step1">
-                                                    <div class="step">1</div>
-                                                    <div class="title">Shipping Information</div>
-                                                </button>
-                                            </li>
-                                            <li class="">
-                                                <button id="step2">
-                                                    <div class="step">2</div>
-                                                    <div class="title">Billing Information</div>
-                                                </button>
-                                            </li>
-                                            <li class="">
-                                                <button id="step3">
-                                                    <div class="step">3</div>
-                                                    <div class="title">Payment Details</div>
-                                                </button>
-                                            </li>
-                                            <li class="">
-                                                <button id="step4">
-                                                    <div class="step">4</div>
-                                                    <div class="title">Review & Place Order</div>
-                                                </button>
+                                    </div>
+
+                                    <div class="stepwizard-row setup-panel">
+                                        <div class="stepwizard-step col-xs-3">
+                                            <a href="#step-1" type="button" class="btn btn-success__blue btn-circle">1</a>
+                                            <p><small><i class="fas fa-mobile-alt"></i> Số điện thoại</small></p>
+                                        </div>
+                                        <div class="stepwizard-step col-xs-3">
+                                            <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                                            <p><small><i class="fas fa-user-check"></i> Mã xác thực</small></p>
+                                        </div>
+                                        <div class="stepwizard-step col-xs-3">
+                                            <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                                            <p><small><i class="fas fa-user-circle"></i> Thông tin</small></p>
+                                        </div>
+                                        <div class="stepwizard-step col-xs-3">
+                                            <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+                                            <p><small><i class="fas fa-check"></i> Hoàn tất</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form role="form" class="register-form">
+                                    <div class="panel setup-content" id="step-1">
+                                        <ul class="form-list">
+                                            <li>
+                                                <label for="sdtdk">Số điện thoại đăng ký gian hàng <span class="required">*</span></label>
+                                                <br>
+                                                <input type="text" title="name" class="input-text required-entry" id="sdtdk" placeholder="Nhập số điện thoại">
                                             </li>
                                         </ul>
+                                        <ul class="pager">
+                                            <li class="next"><a class="nextBtn button" href="#">Tiếp tục</a></li>
+                                        </ul>
                                     </div>
-                                    <div class="buttons">
-                                        <button class="btn" id="prev">prev</button>
-                                        <button class="btn" id="next">next</button>
+
+                                    <div class="panel setup-content" id="step-2">
+                                        <ul class="form-list">
+                                            <li>
+                                                <p class="d-block text-center">Hệ thống đã gửi một mã xác thực, vui lòng kiểm tra điện thoại hoặc email của bạn !</p>
+                                                <label for="">Mã xác thực <span class="required">*</span></label>
+                                                <br>
+                                                <input type="text" title="name" class="input-text required-entry" id="" placeholder="Nhập mã xác thực">
+                                            </li>
+                                        </ul>
+                                        <ul class="pager">
+                                            <li class="previous"><a class="prevBtn button" href="#">Quay lại</a></li>
+                                            <li class="next"><a class="nextBtn button" href="#">Tiếp tục</a></li>
+                                        </ul>
                                     </div>
-                                </div>
+
+                                    <div class="panel setup-content" id="step-3">
+                                        <ul class="form-list">
+                                            <li>
+                                                <label for="name">Họ và tên <span class="required">*</span></label>
+                                                <br>
+                                                <input type="text" title="name" class="input-text required-entry" id="name" placeholder="Nhập họ và tên">
+                                            </li>
+                                            <li>
+                                                <label for="phone">Số điện thoại <span class="required">*</span></label>
+                                                <br>
+                                                <input type="text" title="phone" class="input-text required-entry" id="phone" placeholder="Nhập số điện thoại">
+                                            </li>
+                                            <li>
+                                                <label for="email">Email <span class="required">*</span></label>
+                                                <br>
+                                                <input type="text" title="Email Address" class="input-text required-entry" id="email" placeholder="Nhập địa chỉ email">
+                                            </li>
+                                            <li>
+                                                <label for="">Mật khẩu <span class="required">*</span></label>
+                                                <br>
+                                                <input type="password" title="Password" id="" class="input-text required-entry validate-password" placeholder="******">
+                                            </li>
+                                            <li>
+                                                <label for="confirmPassword">Nhập lại mật khẩu <span class="required">*</span></label>
+                                                <br>
+                                                <input type="password" id="confirmPassword" title="Confirm password" class="input-text required-entry validate-password" placeholder="******">
+                                            </li>
+                                        </ul>
+                                        <ul class="pager">
+                                            <li class="previous"><a class="prevBtn button" href="#">Quay lại</a></li>
+                                            <li class="next"><a class="nextBtn button" href="#">Tiếp tục</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="panel setup-content" id="step-4">
+                                        <h4 class="text-center text-success mb-5"><i class="far fa-check-circle"></i> Đăng ký thành công</h4>
+                                        <ul class="pager">
+                                            <li class="next"><button class="btn btn-success__blue pull-right" type="submit">Đăng nhập ngay !</button></li>
+                                        </ul>
+                                    </div>
+                                </form>
                             </div>
-                        </fieldset>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center flex-wrap">
-                <div class="col-sm-12 col-md-8">
-                    <div class="account-login p-4">
-                        <div class="page-title p-0 text-center">
-                            <h4 class="mt-0 text-blue font-weight-bold"><i class="fas fa-user-plus"></i> Đăng ký tài khoản</h4>
                         </div>
-                        <fieldset class="col2-set">
-                            <div class="registered-users">
-                                <div class="content mt-0 pt-0">
-                                    <ul class="form-list">
-                                        <li>
-                                            <label for="name">Họ và tên <span class="required">*</span></label>
-                                            <br>
-                                            <input type="text" title="name" class="input-text required-entry" id="name" placeholder="Nhập họ và tên">
-                                        </li>
-                                        <li>
-                                            <label for="phone">Số điện thoại <span class="required">*</span></label>
-                                            <br>
-                                            <input type="text" title="phone" class="input-text required-entry" id="phone" placeholder="Nhập số điện thoại">
-                                        </li>
-                                        <li>
-                                            <label for="email">Email <span class="required">*</span></label>
-                                            <br>
-                                            <input type="text" title="Email Address" class="input-text required-entry" id="email" placeholder="Nhập địa chỉ email">
-                                        </li>
-                                        <li>
-                                            <label for="password">Mật khẩu <span class="required">*</span></label>
-                                            <br>
-                                            <input type="password" title="Password" id="password" class="input-text required-entry validate-password" placeholder="******">
-                                        </li>
-                                        <li>
-                                            <label for="confirmPassword">Nhập lại mật khẩu <span class="required">*</span></label>
-                                            <br>
-                                            <input type="password" id="confirmPassword" title="Confirm password" class="input-text required-entry validate-password" placeholder="******">
-                                        </li>
-                                    </ul>
-                                    <div class="buttons-set">
-                                        <button class="button create-account" type="button"><span>Tạo tài khoản</span></button>
-                                        <span class="forgot-word" href="#">Bạn đã có tài khoản ?</span>
-                                        <a href="login.html" class="text-blue">Đăng nhập</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <div class="account-login p-4">
-                        <div class="page-title p-0 text-center">
-                            <h4 class="mt-0 text-blue font-weight-bold"><i class="fas fa-check"></i> Xác thực tài khoản</h4>
-                            <p>Hệ thống đã gửi một mã xác thực, vui lòng kiểm tra điện thoại hoặc email của bạn !</p>
-                        </div>
-                        <fieldset class="col2-set">
-                            <div class="registered-users">
-                                <div class="content mt-0 pt-0">
-                                    <ul class="form-list">
-                                        <li>
-                                            <label for="verifyCode">Mã xác thực <span class="required">*</span></label>
-                                            <br>
-                                            <input type="text" title="verifyCode" id="verifyCode" class="input-text required-entry" placeholder="Nhập mã xác thực">
-                                        </li>
-                                    </ul>
-                                    <div class="buttons-set">
-                                        <button class="button create-account" type="button"><span>Tạo tài khoản</span></button>
-                                        <span class="forgot-word" href="#">Bạn đã có tài khoản ?</span>
-                                        <a href="login.html" class="text-blue">Đăng nhập</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
                     </div>
                 </div>
             </div>
@@ -316,191 +300,117 @@
 
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"></script>
 </body>
 <script>
-    $(document).ready(function() {
-        function setClasses(index, steps) {
-            if (index < 0 || index > steps) return;
-            if(index == 0) {
-                $("#prev").prop('disabled', true);
-            } else {
-                $("#prev").prop('disabled', false);
-            }
-            if(index == steps) {
-                $("#next").text('done');
-            } else {
-                $("#next").text('next');
-            }
-            $(".step-wizard ul li").each(function() {
-                $(this).removeClass();
-            });
-            $(".step-wizard ul li:lt(" + index + ")").each(function() {
-                $(this).addClass("done");
-            });
-            $(".step-wizard ul li:eq(" + index + ")").addClass("active")
-            var p = index * (100 / steps);
-            $("#prog").width(p + '%');
-        }
-        $(".step-wizard ul button").click(function() {
-            var step = $(this).find("div.step")[0].innerText;
-            var steps = $(".step-wizard ul li").length;
-            setClasses(step - 1, steps - 1)
-        });
-        $("#prev").click(function(){
-            var step = $(".step-wizard ul li.active div.step")[0].innerText;
-            var steps = $(".step-wizard ul li").length;
-            setClasses(step - 2, steps - 1);
-        });
-        $("#next").click(function(){
-            if ($(this).text() == 'done') {
-                alert("submit the form?!?")
-            } else {
-                var step = $(".step-wizard ul li.active div.step")[0].innerText;
-                var steps = $(".step-wizard ul li").length;
-                setClasses(step, steps - 1);
+    $(document).ready(function () {
+
+        var navListItems = $('div.setup-panel div a'),
+            allWells = $('.setup-content'),
+            allNextBtn = $('.nextBtn'),
+            allPrevBtn = $('.prevBtn');
+
+        allWells.hide();
+
+        navListItems.click(function (e) {
+            e.preventDefault();
+            var $target = $($(this).attr('href')),
+                $item = $(this);
+            var nextStepWizard = $(this).text();
+
+            if(nextStepWizard == 1)
+                $('.stepwizard .progress-bar').animate({width:'0%'},0);
+            if(nextStepWizard == 2)
+                $('.stepwizard .progress-bar').animate({width:'33%'},0);
+            if(nextStepWizard == 3)
+                $('.stepwizard .progress-bar').animate({width:'66%'},0);
+            if(nextStepWizard == 4)
+                $('.stepwizard .progress-bar').animate({width:'100%'},0);
+
+
+            if (!$item.hasClass('disabled')) {
+                navListItems.removeClass('btn-success__blue').addClass('btn-default');
+                //navListItems.addClass('btn-default');
+                $item.addClass('btn-success__blue');
+                allWells.hide();
+                $target.show();
+                $target.find('input:eq(0)').focus();
             }
         });
 
-        // initial state setup
-        setClasses(0, $(".step-wizard ul li").length);
+        allNextBtn.click(function () {
+            var curStep = $(this).closest(".setup-content"),
+                curStepBtn = curStep.attr("id"),
+                nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+                curInputs = curStep.find("input[type='text'],input[type='url']"),
+                isValid = true;
+
+            $(".form-group").removeClass("has-error");
+            for (var i = 0; i < curInputs.length; i++) {
+                if (!curInputs[i].validity.valid) {
+                    isValid = true;
+                    $(curInputs[i]).closest(".form-group").addClass("has-error");
+                }
+            }
+
+            if (isValid) {
+                nextStepWizard.removeAttr('disabled').trigger('click');
+            }
+        });
+
+
+        allPrevBtn.click(function () {
+            var curStep = $(this).closest(".setup-content"),
+                curStepBtn = curStep.attr("id"),
+                prevStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().prev().children("a");
+
+            prevStepWizard.removeAttr('disabled').trigger('click');
+        });
+
+
+        $('div.setup-panel div a.btn-success__blue').trigger('click');
     });
 </script>
 <style>
-    #wizards {
+
+    .stepwizard-step p {
+        margin-top: 0px;
+        color:#666;
+    }
+    .stepwizard-row {
+        display: table-row;
+    }
+    .stepwizard {
+        display: table;
+        width: 100%;
         position: relative;
-        text-align: center;
-        box-sizing: border-box;
-        margin: 0 auto;
     }
-    .buttons {
+    .stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+        opacity:1 !important;
+        color:#bbb;
+    }
+    .progress{
+        top: 13px;
+        bottom: 0;
         position: absolute;
-        top: 180px;
+        content:" ";
+        width: 74%;
+        left:13%;
+        height: 4px;
+        z-index: 0;
+    }
+    .stepwizard-step {
+        display: table-cell;
         text-align: center;
-        width: 100%;
-    }
-    .step-wizard .btn {
-        width: 50px;
-        height: 30px;
-    }
-    .step-wizard {
-        display: inline-block;
         position: relative;
-        width: 85%;
     }
-    .step-wizard .progress {
-        /* position: absolute; */
-        top: 35px;
-        left: 12.5%;
-        width: 75%;
-    }
-    .step-wizard .progressbar {
-        position: absolute;
-        background-color: #3B5343;
-        opacity: 1;
-        height: 3px;
-        width: 0%;
-        -webkit-transition: width 0.6s ease;
-        -o-transition: width 0.6s ease;
-        transition: width 0.6s ease;
-    }
-    .step-wizard .progressbar.empty {
-        opacity: 1;
-        width: 100%;
-        background-color: #d0d0d0;
-    }
-    .step-wizard ul {
-        /* position: absolute; */
-        width: 100%;
-        list-style-type: none;
-        padding: 0;
-        left: -2%;
-    }
-    .step-wizard li {
-        display: inline-block;
-        text-align: center;
-        width: 24%;
-    }
-    .step-wizard li .step {
-        text-align: center;
-        display: inline-block;
-        font-size: 18px;
-        font-weight: bold;
-        line-height: 30px;
+    .btn-circle {
         width: 30px;
         height: 30px;
-        border-radius: 50%;
-        border: 3px solid;
-        border-color: #d0d0d0;
-        background: #ffffff;
-        -webkit-transition: background-color 0.6s ease, border-color 0.6s ease;
-        -o-transition: background-color 0.6s ease, border-color 0.6s ease;
-        transition: background-color 0.6s ease, border-color 0.6s ease;
-    }
-    .step-wizard li .title {
-        text-decoration: underline;
-        width: 100%;
-        padding-top: 10px;
-        color: #767676;
-        -webkit-transition: color 0.6s ease;
-        -o-transition: color 0.6s ease;
-        transition: color 0.6s ease;
-    }
-    .step-wizard li.active .step {
-        border-color: #3B5343;
-        color: #3b5343;
-    }
-    .step-wizard li.active .title {
-        text-decoration: none;
-        color: #3b5343;
-        font-weight: bold;
-    }
-    .step-wizard li.done .title {
-        color: #3b5343;
-    }
-    .step-wizard li.done .title:hover {
-        color: #3B5343;
-    }
-    .step-wizard li.done .step {
-        color: white;
-        background-color: #3B5343;
-        border-color: #3B5343;
-    }
-    .step-wizard li > button {
-        background: none;
-        border: none;
-        display: block;
-        width: 100%;
-        color: #777;
-        position: relative;
         text-align: center;
+        padding: 6px 0;
+        font-size: 12px;
+        line-height: 1.428571429;
+        border-radius: 15px;
     }
-    .step-wizard li > button:hover .step {
-        border-color: #3b5343;
-        background: #eee;
-        color: #3b5343;
-    }
-    .step-wizard li > button:hover .title {
-        color: #3b5343;
-    }
-    @media only screen and (max-width: 1200px) {
-        .step-wizard li {
-            width: 24%;
-        }
-    }
-    @media only screen and (max-width: 375px) {
-        .step-wizard li {
-            width: 22%;
-        }
-    }
-    li.done button div.step {
-        font-size: 0;
-    }
-    li.done button div.step::before {
-        content: "\2713 ";
-        font-size: 18px;
-    }
-
 </style>
 </html>
