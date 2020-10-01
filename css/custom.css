@@ -762,6 +762,28 @@ input#search_chat {
 .mess-chat .icon i {
     font-size: 22px;
 }
+.footer a, .footer p {
+    padding: 0;
+}
+.block-quote {
+    background: #ebebeb;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.footer-bottom {
+    border-top: 1px solid #ccc;
+}
+.phone-footer {
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #0d66b6;
+}
+
+.block-quote i.fas.fa-quote-left {
+    color: #0d66b6;
+}
 .mess-chat .select-file {
     display: flex;
     justify-content: center;

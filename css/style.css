@@ -9037,9 +9037,7 @@ a.button.wishlist {
 .footer-middle .payment-accept img {
     border: 2px #fff solid
 }
-.footer-middle .col-md-3, .footer-middle .col-md-2 {
-    margin: 5px auto;
-}
+
 .footer a:hover {
     text-decoration: none;
 }
