@@ -377,8 +377,6 @@ a.block-currency:focus {
     margin: 22px auto 0px;
     float: right;
     position: relative;
-    background: #fff url("../images/search-icon.png") no-repeat scroll 10px 7px;
-    padding: 0px 0px 0px 37px;
     border-radius: 2px;
     border: 1px solid #ddd;
     border-right: none;

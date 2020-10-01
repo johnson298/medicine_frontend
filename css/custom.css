@@ -650,9 +650,12 @@ button.button.btn-proceed-checkout {
     font-weight: 500;
     margin: 10px 0;
 }
+.header-shop__logo img {
+    width: 255px;
+}
 
-.chat-list-user {
-    margin-top: 20px;
+.header-shop {
+    height: 60px;
 }
 
 .chat-list-user-item.active {
@@ -663,15 +666,15 @@ input#search_chat {
     padding: 3px 5px;
 }
 .chat-header {
-    padding: 11px;
+    padding: 4px;
     border-bottom: 1px solid #ccc;
     display: flex;
-    height: 103px;
+    height: 70px;
 }
 
 .chat-header .avt-chat {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     overflow: hidden;
 }
 
@@ -694,13 +697,18 @@ input#search_chat {
 }
 
 #chat-shop {
-    height: calc(100vh - 130px);
+    height: calc(100vh - 60px);
     overflow: hidden;
 }
 .chat-left {
     text-align: left;
     display: flex;
     justify-content: flex-start;
+}
+.actions-head .noti {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 25px;
 }
 
 .chat-right {
@@ -732,7 +740,7 @@ input#search_chat {
 }
 .chat-cart {
     position: relative;
-    height: calc(100% - 103px);
+    height: calc(100% - 70px);
 }
 .mess-chat {
     display: flex;
@@ -761,7 +769,6 @@ input#search_chat {
     position: relative;
     cursor: pointer;
 }
-
 .select-file .icon {
     position: absolute;
     margin-top: 4px;
@@ -1192,4 +1199,41 @@ section.slider-main .slider-items {}
 }
 .breadcrumbs li strong {
     color: #2c87d8;
+}
+#tbl-cart-price tr {
+    border-bottom: 1px solid #ccc;
+}
+.header-shop__logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header-shop .actions-head {
+    height: 60px;
+}
+
+.header-shop .actions-head .profile {
+    display: flex;
+    align-items: center;
+}
+
+.header-shop .actions-head .profile span {
+    font-size: 14px;
+}
+
+.header-shop .actions-head .profile i {
+    font-size: 16px;
+}
+.header-shop__logo .title-chat {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
+.header-shop__logo .slash {
+    font-size: 20px;
+    transform: translate(6px, 5px);
+    color: #ffffffb0;
 }
