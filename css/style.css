@@ -5541,7 +5541,7 @@ div.moreview_description.rtl {
     position: relative;
 }
 .product-view .product-name {
-    border-bottom: 1px #ddd dashed;
+    border-bottom: 1px #ddd solid;
 }
 .product-view .product-name h1 {
     font-size: 32px;
@@ -5711,7 +5711,6 @@ div.moreview_description.rtl {
 .product-view .product-shop .ratings {
     padding: 15px 0;
     margin: 0;
-    border-bottom: 1px #ddd dashed;
     margin-bottom: 15px;
 }
 .product-view .product-shop .ratings .rating-links {
@@ -5749,7 +5748,7 @@ div.moreview_description.rtl {
 }
 .product-view .product-shop .price {
     font-size: 22px;
-    color: #ff0000;
+    color: #ea3a3c;
     font-weight: bold;
 }
 .add-to-cart .qty, .qty-holder .qty {

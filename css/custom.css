@@ -1181,3 +1181,15 @@ section.slider-main .slider-items {}
     width: 100%;
     height: auto;
 }
+.list-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-products .item {
+    width: calc(100% / 5);
+    padding: 0 6px;
+}
+.breadcrumbs li strong {
+    color: #2c87d8;
+}
