@@ -512,86 +512,133 @@
                         </section>
                     </div>
                     <div class="tab-pane fade" id="reviews_tabs">
-                        <div class="box-collateral box-reviews" id="customer-reviews">
-                            <div class="box-reviews1">
-                                <div class="form-add">
-                                    <form id="review-form" method="post" action="#">
-                                        <fieldset>
-                                            <h4>Đánh giá sản phẩm? <em class="required">*</em></h4>
-                                            <textarea placeholder="Nhập đánh giá..." class="form-control w-100"></textarea>
-                                            <span id="input-message-box"></span>
-                                            <table id="product-review-table" class="data-table">
-                                                <colgroup>
-                                                    <col>
-                                                    <col width="1">
-                                                    <col width="1">
-                                                    <col width="1">
-                                                    <col width="1">
-                                                    <col width="1">
-                                                </colgroup>
-                                                <thead>
-                                                <tr class="first last">
-                                                    <th>&nbsp;</th>
-                                                    <th><span class="nobr">1 *</span></th>
-                                                    <th><span class="nobr">2 *</span></th>
-                                                    <th><span class="nobr">3 *</span></th>
-                                                    <th><span class="nobr">4 *</span></th>
-                                                    <th><span class="nobr">5 *</span></th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr class="first odd">
-                                                    <th>Số sao đánh giá</th>
-                                                    <td class="value"><input type="radio" class="radio" value="11" id="Price_1" name="ratings[3]"></td>
-                                                    <td class="value"><input type="radio" class="radio" value="12" id="Price_2" name="ratings[3]"></td>
-                                                    <td class="value"><input type="radio" class="radio" value="13" id="Price_3" name="ratings[3]"></td>
-                                                    <td class="value"><input type="radio" class="radio" value="14" id="Price_4" name="ratings[3]"></td>
-                                                    <td class="value last"><input type="radio" class="radio" value="15" id="Price_5" name="ratings[3]"></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                            <input type="hidden" value="" class="validate-rating" name="validate_rating">
-                                            <div class="d-flex justify-content-end">
-                                                <button class="button bg-blue text-white">Gửi nhận xét</button>
-                                            </div>
-                                        </fieldset>
-                                    </form>
+                        <div class="box-collateral box-reviews bg-white" id="vote-customer">
+                            <div class="star-vote">
+                                <div class="ratio-vote"><h2>4.9</h2><span>/5</span></div>
+                                <div class="rate-all">
+                                    <div class="rating-box">
+                                        <div class="rating" style="width:100%;"></div>
+                                    </div>
+                                </div>
+                                <p class="num">450 đánh giá</p>
+                                <div class="rates">
+                                    <div class="rates__items">
+                                        <div class="rating-box">
+                                            <div class="rating" style="width:100%;"></div>
+                                        </div>
+                                        <div class="rate-range">
+                                            <div class="active"></div>
+                                        </div>
+                                        <div class="num">100</div>
+                                    </div>
+                                    <div class="rates__items">
+                                        <div class="rating-box">
+                                            <div class="rating" style="width:100%;"></div>
+                                        </div>
+                                        <div class="rate-range">
+                                            <div class="active"></div>
+                                        </div>
+                                        <div class="num">100</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="box-reviews2">
-                                <h3>Đánh giá của người mua hàng</h3>
-                                <div class="box visible box-cmt">
-                                    <ul>
-                                        <li>
-                                            <div class="cmt-img-user">
-                                                <img src="images/shop.jpg" alt="">
-                                            </div>
-                                            <div class="review">
-                                                <h6><a href="#">Nguyễn Văn A</a></h6>
-                                                <div class="rating-box">
-                                                    <div class="rating" style="width:100%;"></div>
+                            <div class="cmt-vote">
+                                <div class="box-reviews1">
+                                    <div class="form-add">
+                                        <form id="review-form" method="post" action="#">
+                                            <fieldset>
+                                                <h4>Nhận xét và đánh giá của người bán</h4>
+                                                <ul id='js-rating-star' class="c-rating-star u-text-center" data-name="test">
+                                                    <li class='c-rating-star__item' title='Poor' data-value='1'>
+                                                        <i class='fa fa-star fa-fw c-rating-star__icon'></i>
+                                                    </li>
+                                                    <li class='c-rating-star__item' title='Fair' data-value='2'>
+                                                        <i class='fa fa-star fa-fw c-rating-star__icon'></i>
+                                                    </li>
+                                                    <li class='c-rating-star__item' title='Good' data-value='3'>
+                                                        <i class='fa fa-star fa-fw c-rating-star__icon'></i>
+                                                    </li>
+                                                    <li class='c-rating-star__item' title='Excellent' data-value='4'>
+                                                        <i class='fa fa-star fa-fw c-rating-star__icon'></i>
+                                                    </li>
+                                                    <li class='c-rating-star__item' title='WOW!!!' data-value='5'>
+                                                        <i class='fa fa-star fa-fw c-rating-star__icon'></i>
+                                                    </li>
+                                                </ul>
+                                                <textarea placeholder="Nhập đánh giá..." class="form-control w-100"></textarea>
+                                                <span id="input-message-box"></span>
+                                                <table id="product-review-table" class="data-table">
+                                                    <colgroup>
+                                                        <col>
+                                                        <col width="1">
+                                                        <col width="1">
+                                                        <col width="1">
+                                                        <col width="1">
+                                                        <col width="1">
+                                                    </colgroup>
+                                                    <thead>
+                                                    <tr class="first last">
+                                                        <th>&nbsp;</th>
+                                                        <th><span class="nobr">1 *</span></th>
+                                                        <th><span class="nobr">2 *</span></th>
+                                                        <th><span class="nobr">3 *</span></th>
+                                                        <th><span class="nobr">4 *</span></th>
+                                                        <th><span class="nobr">5 *</span></th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr class="first odd">
+                                                        <th>Số sao đánh giá</th>
+                                                        <td class="value"><input type="radio" class="radio" value="11" id="Price_1" name="ratings[3]"></td>
+                                                        <td class="value"><input type="radio" class="radio" value="12" id="Price_2" name="ratings[3]"></td>
+                                                        <td class="value"><input type="radio" class="radio" value="13" id="Price_3" name="ratings[3]"></td>
+                                                        <td class="value"><input type="radio" class="radio" value="14" id="Price_4" name="ratings[3]"></td>
+                                                        <td class="value last"><input type="radio" class="radio" value="15" id="Price_5" name="ratings[3]"></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <input type="hidden" value="" class="validate-rating" name="validate_rating">
+                                                <div class="d-flex justify-content-end">
+                                                    <button class="button bg-blue text-white">Gửi nhận xét</button>
                                                 </div>
-                                                <small>01/3/2014 </small>
-                                                <div class="review-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto cupiditate delectus deleniti dignissimos dolore eius, ex expedita illo labore nam nemo, numquam praesentium qui quo saepe sit suscipit tempora.</div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="cmt-img-user">
-                                                <img src="images/shop.jpg" alt="">
-                                            </div>
-                                            <div class="review">
-                                                <h6><a href="#">Nguyễn Văn A</a> <span class="shield-buy"><i class="fas fa-shield-alt"></i> Chứng nhận đã mua hàng</span></h6>
-                                                <div class="rating-box">
-                                                    <div class="rating" style="width:100%;"></div>
-                                                </div>
-                                                <small>01/3/2014 </small>
-                                                <div class="review-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto cupiditate delectus deleniti dignissimos dolore eius, ex expedita illo labore nam nemo, numquam praesentium qui quo saepe sit suscipit tempora.</div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                            </fieldset>
+                                        </form>
+                                    </div>
                                 </div>
+                                <div class="box-reviews2">
+                                    <div class="box visible box-cmt">
+                                        <ul>
+                                            <li>
+                                                <div class="cmt-img-user">
+                                                    <img src="images/shop.jpg" alt="">
+                                                </div>
+                                                <div class="review">
+                                                    <h6><a href="#">Nguyễn Văn A</a></h6>
+                                                    <div class="rating-box">
+                                                        <div class="rating" style="width:100%;"></div>
+                                                    </div>
+                                                    <small>01/3/2014 </small>
+                                                    <div class="review-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto cupiditate delectus deleniti dignissimos dolore eius, ex expedita illo labore nam nemo, numquam praesentium qui quo saepe sit suscipit tempora.</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="cmt-img-user">
+                                                    <img src="images/shop.jpg" alt="">
+                                                </div>
+                                                <div class="review">
+                                                    <h6><a href="#">Nguyễn Văn A</a> <span class="shield-buy"><i class="fas fa-shield-alt"></i> Chứng nhận đã mua hàng</span></h6>
+                                                    <div class="rating-box">
+                                                        <div class="rating" style="width:100%;"></div>
+                                                    </div>
+                                                    <small>01/3/2014 </small>
+                                                    <div class="review-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto cupiditate delectus deleniti dignissimos dolore eius, ex expedita illo labore nam nemo, numquam praesentium qui quo saepe sit suscipit tempora.</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
                             </div>
-                            <div class="clear"></div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="info_shop_tabs">
