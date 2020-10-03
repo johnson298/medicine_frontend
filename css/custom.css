@@ -646,7 +646,7 @@ button.button.btn-proceed-checkout {
     background-color: #fff;
 }
 .chat-search h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin: 10px 0;
 }
@@ -936,6 +936,7 @@ input#search_chat {
 }
 .chat-search {
     height: 75px;
+    padding: 0 5px;
 }
 
 .chat-list-user {
@@ -1324,4 +1325,15 @@ div#vote-customer {
 
 .star-vote {
     padding: 10px;
+}
+.wrapper-chat {
+    display: flex;
+}
+
+.col-chat-user {
+    width: calc(100% / 7);
+}
+
+.col-chat-info {
+    flex: 1;
 }
