@@ -142,10 +142,16 @@ strong {
 #search_mini_form {
     display: flex;
     justify-content: flex-end;
+    height: 38px;
+    overflow: hidden;
+    border-radius: 4px;
 }
 
 #search_mini_form input {
     flex: 1;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 16px;
 }
 .header-container {
     background: linear-gradient(-180deg,#0a64b4,#318dde);
@@ -169,8 +175,15 @@ strong {
 li.parent > a i {float: right;margin-top: 3px;}
 
 .search-btn-bg {
-    background-color: #0565b8;
-    border: 1px solid #0565b8;
+    background-color: #116cbc;
+    border: 1px solid #116cbc;
+    border: 0;
+    height: 34px;
+    padding: 0;
+    width: 49px;
+    margin: 2px;
+    border-radius: 3px;
+    font-size: 14px;
 }
 .header-container .login a {
     color: #fdd835;
@@ -248,7 +261,7 @@ li.parent > a i {float: right;margin-top: 3px;}
     color: #fff !important;
 }
 .select-custom {
-    font-size: 12px;
+    font-size: 13px;
     width: 100px;
     padding: 5px;
     height: 28px;
@@ -308,7 +321,7 @@ input.input-text{
     color: #fff !important;
 }
 .select-custom__115{
-    width: 115px !important;
+    width: 125px !important;
 }
 .input_height{
     height: 28px;
@@ -1460,6 +1473,9 @@ div#vote-customer {
 .action-cart .button {
     margin-left: 0 !important;
     margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
 }
 .shop--description {
     text-align: center;
@@ -1487,6 +1503,7 @@ div#vote-customer {
     border: 1px solid #2682d2;
     border-radius: 3px;
     display: block;
+    transition: .3s;
 }
 
 .shop--description .ng-scope li {
@@ -1506,10 +1523,15 @@ div#vote-customer {
     display: flex;
     justify-content: space-between;
 }
-
+.shop--description .ng-scope a:hover {
+    color: #2b86d7;
+}
 .shop--content {
     padding-top: 12px;
 }
 .commentlist li .comment-wrapper {
     border-bottom: 1px solid #ededed !important;
+}
+.select-custom:focus {
+    padding: 5px !important;
 }
