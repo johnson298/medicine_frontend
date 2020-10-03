@@ -5528,7 +5528,7 @@ div.moreview_description.rtl {
 .product-view .product-shop .add-to-box button.button.btn-cart span {
     background: none;
     margin-left: 5px;
-    font-size: 16px;
+    font-size: 13px;
 }
 .product-view .product-options-bottom button.button.btn-cart span {
     background: none;
@@ -5546,7 +5546,7 @@ div.moreview_description.rtl {
     margin: 0 0 2px;
     text-align: left;
     line-height: 1.2em;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
     letter-spacing: -1px;
     font-weight: bold;
 }
@@ -5572,20 +5572,19 @@ div.moreview_description.rtl {
     text-decoration: none;
 }
 .product-view .product-shop .add-to-box .btn-cart {
-    background: #ff6c00;
-    color: #fff;
+    font-weight: normal;
+    background: #2682d214;
+    color: #2682d2;
     font-size: 16px;
     text-shadow: none;
-    padding: 10px 15px;
     float: left;
     margin-top: 0px;
-    font-weight: normal;
-    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
     margin-left: 10px;
-    border: none;
+    border: 1px solid #2682d2;
+    padding: 0 5px;
 }
 .product-view .product-shop .add-to-box .btn-cart:hover {
-    background: #000;
+    background: #2682d2;
     text-shadow: none;
     color: #fff;
 }
@@ -5707,9 +5706,8 @@ div.moreview_description.rtl {
     text-align: center;
 }
 .product-view .product-shop .ratings {
-    padding: 15px 0;
+    padding: 8px 0;
     margin: 0;
-    margin-bottom: 15px;
 }
 .product-view .product-shop .ratings .rating-links {
     margin-bottom: 12px;
@@ -6593,9 +6591,6 @@ fieldset {
     transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
 }
 .custom button.items-count:hover {
-    background-color: #2682d2;
-    border: 2px #2682d2 solid;
-    color: #fff;
 }
 .add-to-cart button.button {
     margin-left: 5px;
@@ -6696,7 +6691,6 @@ fieldset {
     color: #333;
 }
 .add-to-cart .qty.input-text:focus {
-    border: 2px solid #ddd;
     padding: 11px 5px 10px;
 }
 /*  prev-next-products */
