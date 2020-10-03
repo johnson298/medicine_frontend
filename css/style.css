@@ -2123,36 +2123,21 @@ ul.topnav em:hover {
 .new_title {
 }
 .new_title.center {
-    height: 30px;
+    height: 35px;
     border-bottom: 2px #eaeaea solid;
 }
 .new_title h2 {
-    border-bottom: 3px solid #2682d2;
-    color: #fff;
+    color: #2682d2;
     display: inline-block;
     font-size: 11px;
     font-weight: bold;
     margin-top: 0;
-    padding: 8px 15px 6px 15px;
     position: relative;
     text-transform: uppercase;
-    background: #2682d2;
     letter-spacing: 1px;
     margin-bottom: 0;
 }
-.new_title h2:after {
-    content: '\f0d7';
-    font-family: FontAwesome;
-    color: #2682d2;
-    display: block;
-    position: absolute;
-    top: 24px;
-    text-align: center;
-    left: 50%;
-    font-size: 12px;
-}
-.featured_title {
-}
+
 .featured_title.center {
     height: 41px;
 }
