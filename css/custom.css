@@ -1648,3 +1648,16 @@ ul.list-cart-shopping li {
     display: inline-block;
     border-radius: 50%;
 }
+.border-delivery {
+    height: 2px;
+    width: 100%;
+    background-size: 7.25rem .1875rem;
+    background-image: repeating-linear-gradient(45deg,#6fa6d6,#6fa6d6 33px,transparent 0,transparent 41px,#f18d9b 0,#f18d9b 74px,transparent 0,transparent 82px);
+}
+.checkout-address textarea {
+    width: 100%;
+}
+
+.info-checkout {
+    padding: 5px 10px;
+}
