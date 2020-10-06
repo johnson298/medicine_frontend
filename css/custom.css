@@ -1535,3 +1535,116 @@ div#vote-customer {
 .select-custom:focus {
     padding: 5px !important;
 }
+.img-cart {
+    width: 80px;
+}
+
+.img-cart img {
+    width: 100%;
+}
+
+.item-cart {
+    display: flex;
+}
+
+.custom-cart .custom {
+    height: 26px;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+}
+
+.custom-cart .custom button {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 10px;
+    border: none;
+    background: #fff !important;
+}
+
+.custom-cart .custom input {
+    height: 100%;
+    width: 55px;
+    border: none;
+    text-align: center;
+    background: transparent;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.content-cart {
+    padding: 5px 10px;
+    flex: 1;
+}
+.custom-cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-cart .check {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.shopping-cart {
+    background: #fff;
+}
+
+.page-title h4 {
+    font-size: 14px;
+    padding: 0 15px !important;
+}
+.page-title h4 input[type=checkbox]{
+    margin-right: 10px;
+}
+.name-cart {
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.action-remove {
+    display: flex;
+    width: 40px;
+    align-items: center;
+}
+
+.action-remove .button {
+    border: none;
+}
+
+.action-remove .button:hover {
+    color: red;
+    background: transparent;
+}
+ul.list-cart-shopping li {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 0;
+}
+
+.shopping-cart .page-title {
+    border-bottom: 1px solid #ccc;
+}
+.cart-footer {
+    padding: 5px 15px;
+}
+.radio-pt input {
+    margin: 0 !important;
+    margin-top: 6px !important;
+}
+
+.radio-pt label {
+    padding-left: 16px;
+}
+
+.radio-pt {margin-left: 13px;}
+
+.cart-footer .radio {
+    display: flex;
+}
+.chat-active {
+    width: 8px;
+    height: 8px;
+    background: #30ea19;
+    display: inline-block;
+    border-radius: 50%;
+}
