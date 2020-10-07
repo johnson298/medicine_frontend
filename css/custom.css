@@ -1661,3 +1661,35 @@ ul.list-cart-shopping li {
 .info-checkout {
     padding: 5px 10px;
 }
+.text-warning {
+    color: #f69d04;
+}
+.modal-open .modal{
+    background-color: #0000006b;
+}
+.from-info-order label {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.from-info-order .input-text {
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.from-info-order .input-text:focus {
+    padding: 5px;
+}
+.title-total {
+    font-size: 15px;
+    padding: 3px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+.bg-warning{
+    background-color: #f69d04;
+}

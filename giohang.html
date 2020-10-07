@@ -131,11 +131,11 @@
     <!-- Slider -->
     <section class="main-container col1-layout">
         <div class="container mt-4">
-            <div class="col-sm-5">
+            <div class="col-sm-6">
                 <div class="checkout-address bg-white">
                     <div class="border-delivery"></div>
                     <div class="info-checkout">
-                        <div><strong>Địa chỉ nhận hàng: </strong></div>
+                        <div><strong>Địa chỉ nhận hàng: </strong> <small><a href="" class="text-warning"  data-toggle="modal" data-target="#editInfo"><i class="fas fa-pencil-alt"></i> Sửa</a></small></div>
                         <div><strong>Nguyễn Quỳnh</strong></div>
                         <div><strong>01235987</strong></div>
                         <div><span>Số 133 ngõ 1194 Láng Thượng Hà Nội</span></div>
@@ -145,12 +145,13 @@
                         <p class="mb-0">Nhập ghi chú</p>
                         <textarea rows="5" placeholder="Nhập ghi chú..." class="input-text"></textarea>
                         <div class="d-flex justify-content-end">
+                            <button class="button bg-warning text-white mr-2">Lưu thông tin</button>
                             <button class="button bg-blue text-white">Đặt hàng</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-6">
                 <div class="col-main">
                     <div class="shopping-cart mb-4">
                         <div class="page-title bg-white mb-1">
@@ -272,10 +273,10 @@
                                 <span class="font-weight-bold">Hình thức vận chuyển:</span>
                                 <div class="radio">
                                     <div class="radio-pt">
-                                        <input type="radio" class="radio" id="pttt1"> <label for="pttt1">Giao hàng online</label>
+                                        <input type="radio" class="radio" name="ptt2" id="foPtt2_1"> <label for="foPtt2_1">Giao hàng online</label>
                                     </div>
                                     <div class="radio-pt">
-                                        <input type="radio" class="radio" id="pttt2"> <label for="pttt2">Tự đến lấy</label>
+                                        <input type="radio" class="radio" name="ptt2" id="foPtt2_2"> <label for="foPtt2_2">Tự đến lấy</label>
                                     </div>
                                 </div>
                             </div>
@@ -401,13 +402,36 @@
                                 <span class="font-weight-bold">Hình thức vận chuyển:</span>
                                 <div class="radio">
                                     <div class="radio-pt">
-                                        <input type="radio" class="radio" id="pttt1"> <label for="pttt1">Giao hàng online</label>
+                                        <input type="radio" class="radio" name="pttt1" id="forPtt1_1"> <label for="forPtt1_1">Giao hàng online</label>
                                     </div>
                                     <div class="radio-pt">
-                                        <input type="radio" class="radio" id="pttt2"> <label for="pttt2">Tự đến lấy</label>
+                                        <input type="radio" class="radio" name="pttt1" id="forPtt1_2"> <label for="forPtt1_2">Tự đến lấy</label>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 bg-white p-3">
+                        <h5 class="title-total">Tổng giá trị</h5>
+                        <div class="d-flex justify-content-between">
+                            <span class="font-weight-bold">Số lượng sản phẩm:</span>
+                            <strong>500.000&#8363;</strong>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="font-weight-bold">Tổng tiền:</span>
+                            <strong>1.000.000&#8363;</strong>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="font-weight-bold">Số tiền được chiết khấu:</span>
+                            <strong>0&#8363;</strong>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="font-weight-bold">VAT:</span>
+                            <strong>0&#8363;</strong>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="font-weight-bold">Số tiền phải trả:</span>
+                            <strong class="text-danger">1.000.000&#8363;</strong>
                         </div>
                     </div>
                 </div>
@@ -415,7 +439,75 @@
 
         </div>
     </section>
-
+    <!-- Modal -->
+    <div class="modal fade" id="editInfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Chỉnh sửa thông tin giao hàng</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body from-info-order">
+                    <div class="row d-flex flex-wrap">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Họ và tên <span class="required">(*)</span></label>
+                                <input type="text" title="name" class="input-text required-entry"  placeholder="Nhập họ và tên">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Email <span class="required">(*)</span></label>
+                                <input type="text" title="name" class="input-text required-entry"  placeholder="Nhập email">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Số điện thoại <span class="required">(*)</span></label>
+                                <input type="text" title="name" class="input-text required-entry"  placeholder="Nhập số điện thoại">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Tỉnh/Thành phố <span class="required">(*)</span></label>
+                                <select name="" id="" class="form-control">
+                                    <option value="">Chọn Tỉnh/Thành phố</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Quận/Huyện <span class="required">(*)</span></label>
+                                <select name="" id="" class="form-control">
+                                    <option value="">Chọn Quận/Huyện</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Phường/Xã <span class="required">(*)</span></label>
+                                <select name="" id="" class="form-control">
+                                    <option value="">Chọn Phường/Xã</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Địa chỉ cụ thể <span class="required">(*)</span></label>
+                                <textarea rows="3" class="input-text" placeholder="Nhập địa chỉ cụ thể"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary">Lưu thông tin giao hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-middle container">
