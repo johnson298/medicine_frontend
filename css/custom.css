@@ -227,11 +227,12 @@ li.parent > a i {float: right;margin-top: 3px;}
 }
 .list-cate {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .list-cate > div {
-    flex: 1;
-    margin-right: 4px;
+    border: 2px solid whitesmoke;
+    width: calc(100% / 6);
 }
 
 .list-cate > div:last-child {
@@ -1692,4 +1693,7 @@ ul.list-cart-shopping li {
 }
 .bg-warning{
     background-color: #f69d04;
+}
+.sec-profile .page-title h4{
+    padding-left: 0 !important;
 }
