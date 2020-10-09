@@ -133,7 +133,7 @@
     <!-- main-container -->
     <div class="main-container col2-right-layout">
         <div class="main container">
-            <div class="row">
+            <div class="row mt-4">
                 <aside class="col-right sidebar col-sm-3 wow">
                     <div class="block block-company">
                         <div class="block-img">
@@ -152,7 +152,7 @@
                     </div>
                 </aside>
                 <section class="col-main col-sm-9 wow mb-5">
-                    <ul class="nav nav-tabs product-tabs tab-shop">
+                    <ul class="nav nav-tabs product-tabs tab-shop d-flex justify-content-between">
                         <li class="active"> <a href="#product_tabs_description" data-toggle="tab"> Tất cả </a> </li>
                         <li> <a href="#waitConfirm" data-toggle="tab"><i class="fas fa-dolly-flatbed"></i> Chờ xác nhận</a> </li>
                         <li> <a href="#shipping" data-toggle="tab"><i class="fas fa-shipping-fast"></i> Đang giao <span class="text-danger">(2)</span></a> </li>
@@ -160,131 +160,248 @@
                         <li> <a href="#cancelled" data-toggle="tab"><i class="fas fa-window-close"></i> Đã hủy</a> </li>
                     </ul>
                     <div class="tab-content mt-2">
-                        <div class="tab-pane fade" id="product_tabs_description">
-                            ...
-                        </div>
-                        <div class="tab-pane fade in active" id="waitConfirm">
-                            <div class="cart" id="shopping-cart-table">
-                                <div class="cart-main mb-3">
-                                    <div class="page-title bg-white mb-1">
-                                        <h4 class="mb-0 px-3 d-flex align-items-center justify-content-between">
+                        <div class="tab-pane active" id="product_tabs_description">
+                            <div class="shopping-cart mb-4 order-me">
+                                <div class="page-title bg-white mb-1">
+                                    <h4 class="mb-0 px-3 d-flex align-items-center justify-content-between">
+                                        <div>
                                             <span><i class="fas fa-hotel"></i> Nhà thuốc Long Biên</span>
-                                            <span>
-                                        <a href="" class="text-blue"><i class="fas fa-comment-dots"></i> Deal giá với shop</a>
-                                    </span>
-                                        </h4>
-                                    </div>
-                                    <div class="table-responsive">
-                                        <form method="post" action="#updatePost/">
-                                            <input type="hidden" value="Vwww7itR3zQFe86m" name="form_key">
-                                            <fieldset>
-                                                <table class="data-table cart-table">
-                                                    <colgroup>
-                                                        <col>
-                                                        <col width="1">
-                                                        <col>
-                                                        <col width="1">
-                                                        <col width="2">
-                                                        <col width="2">
-                                                        <col width="2">
-                                                        <col width="1">
-                                                    </colgroup>
-                                                    <thead>
-                                                    <tr class="first last">
-                                                        <th>
-                                                            <div class="checkbox m-0">
-                                                                <label><input type="checkbox" value=""></label>
-                                                            </div>
-                                                        </th>
-                                                        <th colspan="1" class="text-center">Ảnh</th>
-                                                        <th colspan="1"><span class="nobr">Tên sản phẩm</span></th>
-                                                        <th colspan="2" class="a-center"><span class="nobr">Khung giá</span></th>
-                                                        <th colspan="2" class="a-center">Số lượng</th>
-                                                        <th colspan="2" class="a-center">Thành tiền (vnđ)</th>
-                                                        <th colspan="1" class="a-center">&nbsp;</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tfoot>
-                                                    <tr class="first last">
-                                                        <td class="a-right last" colspan="50">
-                                                            <button class="button" title="Continue Shopping" type="button" disabled><span>Tổng: 500.000&#8363;</span></button>
-                                                            <button class="button btn-update" title="Update Cart" value="update_qty" name="update_cart_action" type="submit"><span><span>Mua hàng</span></span></button>
-                                                            <button class="button btn-empty" title="Clear Cart" value="empty_cart" name="update_cart_action" type="submit"><span><span>Xóa hết</span></span></button></td>
-                                                    </tr>
-                                                    </tfoot>
-                                                    <tbody>
-                                                    <tr class="first odd">
-                                                        <td>
-                                                            <div class="checkbox m-0">
-                                                                <label><input type="checkbox" value=""></label>
-                                                            </div>
-                                                        </td>
-                                                        <td class="image" rowspan="1">
-                                                            <a class="product-image" title="Sample Product" href="#">
-                                                                <img width="75" alt="Sample Product" src="products-images/sp.jpg"></a>
-                                                        </td>
-                                                        <td rowspan="1">
-                                                            <h2 class="product-name font-weight-bold"> <a href="#">Sample Product</a> </h2>
-                                                        </td>
-                                                        <td class="a-right" colspan="2">
-                                                            <p class="cart-price m-0 d-flex justify-content-between"> <strong>0-10:</strong> <strong class="price font-weight-bold">10.000&#8363;</strong> </p>
-                                                            <p class="cart-price m-0 d-flex justify-content-between"> <strong>10-100:</strong> <strong class="price font-weight-bold">9.000&#8363;</strong> </p>
-                                                            <p class="cart-price m-0 d-flex justify-content-between"> <strong>100-1000:</strong> <strong class="price font-weight-bold">8.000&#8363;</strong> </p>
-                                                        </td>
-                                                        <td class="a-center movewishlist" colspan="2">
-                                                            <input maxlength="12" class="input-text qty" title="Qty" size="4" value="1" name="cart[15945][qty]">
-                                                        </td>
-                                                        <td class="a-right movewishlist" colspan="2">
-                                                            <span class="cart-price"> <strong class="price font-weight-bold">10.000&#8363;</strong> </span>
-                                                        </td>
-                                                        <td class="a-center last" rowspan="1">
-                                                            <a class="button remove-item" title="Xóa sản phẩm" href="#"><span><span>Remove item</span></span></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="first even">
-                                                        <td>
-                                                            <div class="checkbox m-0">
-                                                                <label><input type="checkbox" value=""></label>
-                                                            </div>
-                                                        </td>
-                                                        <td class="image" rowspan="1">
-                                                            <a class="product-image" title="Sample Product" href="#">
-                                                                <img width="75" alt="Sample Product" src="products-images/sp.jpg"></a>
-                                                        </td>
-                                                        <td rowspan="1">
-                                                            <h2 class="product-name font-weight-bold"> <a href="#">Sample Product</a> </h2>
-                                                        </td>
-                                                        <td class="a-right" colspan="2">
-                                                            <p class="cart-price m-0 d-flex justify-content-between"> <strong>0-10:</strong> <strong class="price font-weight-bold">10.000&#8363;</strong> </p>
-                                                            <p class="cart-price m-0 d-flex justify-content-between"> <strong>10-100:</strong> <strong class="price font-weight-bold">9.000&#8363;</strong> </p>
-                                                            <p class="cart-price m-0 d-flex justify-content-between"> <strong>100-1000:</strong> <strong class="price font-weight-bold">8.000&#8363;</strong> </p>
-                                                        </td>
-                                                        <td class="a-center movewishlist" colspan="2">
-                                                            <input maxlength="12" class="input-text qty" title="Qty" size="4" value="1" name="cart[15945][qty]">
-                                                        </td>
-                                                        <td class="a-right movewishlist" colspan="2">
-                                                            <span class="cart-price"> <strong class="price font-weight-bold">10.000&#8363;</strong> </span>
-                                                        </td>
-                                                        <td class="a-center last" rowspan="1">
-                                                            <a class="button remove-item" title="Xóa sản phẩm" href="#"><span><span>Remove item</span></span></a>
-                                                        </td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                            </fieldset>
-                                        </form>
+                                            <a href="" class="text-blue ml-3 deal-shop"><i class="fas fa-comment-dots"></i> Deal giá với shop</a>
+                                        </div>
+                                        <span class="type-order">Chờ xác nhận</span>
+                                    </h4>
+                                </div>
+                                <ul class="list-cart-shopping">
+                                    <li>
+                                        <div class="item-cart">
+                                            <div class="img-cart">
+                                                <img alt="Sample Product" src="products-images/sp.jpg">
+                                            </div>
+                                            <div class="content-cart">
+                                                <p class="name-cart text-uppercase">kem chống nắng collagen amtx Lorem ipsum dolor.</p>
+                                                <div class="custom-cart">
+                                                    <p>200.000&#8363;/hộp</p>
+                                                    <span>20 (sp)</span>
+                                                    <p><strong>200.000&#8363;</strong></p>
+                                                </div>
+                                            </div>
+                                            <div class="action-remove">
+                                                <a class="button remove-item" title="Xóa sản phẩm" href="#"><i class="far fa-trash-alt"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="cart-footer">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <button class="button mr-2"><i class="far fa-eye"></i> Xem chi tiết đơn hàng</button>
+                                            <button class="button"><i class="fas fa-ban"></i> Hủy đơn hàng</button>
+                                        </div>
+                                        <span class="total-order">Tổng số tiền: <strong>965.000&#8363;</strong></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="shipping">
+                        <div class="tab-pane in" id="waitConfirm">
+                            <div class="shopping-cart mb-4 order-me">
+                                <div class="page-title bg-white mb-1">
+                                    <h4 class="mb-0 px-3 d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <span><i class="fas fa-hotel"></i> Nhà thuốc Long Biên</span>
+                                            <a href="" class="text-blue ml-3 deal-shop"><i class="fas fa-comment-dots"></i> Deal giá với shop</a>
+                                        </div>
+                                        <span class="type-order">Chờ xác nhận</span>
+                                    </h4>
+                                </div>
+                                <ul class="list-cart-shopping">
+                                    <li>
+                                        <div class="item-cart">
+                                            <div class="img-cart">
+                                                <img alt="Sample Product" src="products-images/sp.jpg">
+                                            </div>
+                                            <div class="content-cart">
+                                                <p class="name-cart text-uppercase">kem chống nắng collagen amtx Lorem ipsum dolor.</p>
+                                                <div class="custom-cart">
+                                                    <p>200.000&#8363;/hộp</p>
+                                                    <span>20 (sp)</span>
+                                                    <p><strong>200.000&#8363;</strong></p>
+                                                </div>
+                                            </div>
+                                            <div class="action-remove">
+                                                <a class="button remove-item" title="Xóa sản phẩm" href="#"><i class="far fa-trash-alt"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="cart-footer">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <button class="button mr-2"><i class="far fa-eye"></i> Xem chi tiết đơn hàng</button>
+                                            <button class="button"><i class="fas fa-ban"></i> Hủy đơn hàng</button>
+                                        </div>
+                                        <span class="total-order">Tổng số tiền: <strong>965.000&#8363;</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopping-cart mb-4 order-me">
+                                <div class="page-title bg-white mb-1">
+                                    <h4 class="mb-0 px-3 d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <span><i class="fas fa-hotel"></i> Nhà thuốc Long Biên</span>
+                                            <a href="" class="text-blue ml-3 deal-shop"><i class="fas fa-comment-dots"></i> Deal giá với shop</a>
+                                        </div>
+                                        <span class="type-order">Đang giao hàng</span>
+                                    </h4>
+                                </div>
+                                <ul class="list-cart-shopping">
+                                    <li>
+                                        <div class="item-cart">
+                                            <div class="img-cart">
+                                                <img alt="Sample Product" src="products-images/sp.jpg">
+                                            </div>
+                                            <div class="content-cart">
+                                                <p class="name-cart text-uppercase">kem chống nắng collagen amtx Lorem ipsum dolor.</p>
+                                                <div class="custom-cart">
+                                                    <p>200.000&#8363;/hộp</p>
+                                                    <span>20 (sp)</span>
+                                                    <p><strong>200.000&#8363;</strong></p>
+                                                </div>
+                                            </div>
+                                            <div class="action-remove">
+                                                <a class="button remove-item" title="Xóa sản phẩm" href="#"><i class="far fa-trash-alt"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="cart-footer">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <button class="button mr-2"><i class="far fa-eye"></i> Xem chi tiết đơn hàng</button>
+                                            <button class="button"><i class="fas fa-ban"></i> Hủy đơn hàng</button>
+                                        </div>
+                                        <span class="total-order">Tổng số tiền: <strong>965.000&#8363;</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shopping-cart mb-4 order-me">
+                                <div class="page-title bg-white mb-1">
+                                    <h4 class="mb-0 px-3 d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <span><i class="fas fa-hotel"></i> Nhà thuốc Long Biên</span>
+                                            <a href="" class="text-blue ml-3 deal-shop"><i class="fas fa-comment-dots"></i> Deal giá với shop</a>
+                                        </div>
+                                        <span class="type-order">Chờ xác nhận</span>
+                                    </h4>
+                                </div>
+                                <ul class="list-cart-shopping">
+                                    <li>
+                                        <div class="item-cart">
+                                            <div class="img-cart">
+                                                <img alt="Sample Product" src="products-images/sp.jpg">
+                                            </div>
+                                            <div class="content-cart">
+                                                <p class="name-cart text-uppercase">kem chống nắng collagen amtx Lorem ipsum dolor.</p>
+                                                <div class="custom-cart">
+                                                    <p>200.000&#8363;/hộp</p>
+                                                    <span>20 (sp)</span>
+                                                    <p><strong>200.000&#8363;</strong></p>
+                                                </div>
+                                            </div>
+                                            <div class="action-remove">
+                                                <a class="button remove-item" title="Xóa sản phẩm" href="#"><i class="far fa-trash-alt"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="cart-footer">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <button class="button mr-2"><i class="far fa-eye"></i> Xem chi tiết đơn hàng</button>
+                                            <button class="button"><i class="fas fa-ban"></i> Hủy đơn hàng</button>
+                                        </div>
+                                        <span class="total-order">Tổng số tiền: <strong>965.000&#8363;</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="shipping">
                             ...
                         </div>
-                        <div class="tab-pane fade" id="shiped">
-                            ...
+                        <div class="tab-pane" id="shiped">
+                            <div class="shopping-cart mb-4 order-me">
+                                <div class="page-title bg-white mb-1">
+                                    <h4 class="mb-0 px-3 d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <span><i class="fas fa-hotel"></i> Nhà thuốc Long Biên</span>
+                                            <a href="" class="text-blue ml-3 deal-shop"><i class="fas fa-comment-dots"></i> Deal giá với shop</a>
+                                        </div>
+                                        <span class="type-order">Chờ xác nhận</span>
+                                    </h4>
+                                </div>
+                                <ul class="list-cart-shopping">
+                                    <li>
+                                        <div class="item-cart">
+                                            <div class="img-cart">
+                                                <img alt="Sample Product" src="products-images/sp.jpg">
+                                            </div>
+                                            <div class="content-cart">
+                                                <p class="name-cart text-uppercase">kem chống nắng collagen amtx Lorem ipsum dolor.</p>
+                                                <div class="custom-cart">
+                                                    <p>200.000&#8363;/hộp</p>
+                                                    <span>20 (sp)</span>
+                                                    <p><strong>200.000&#8363;</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="cart-footer">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <button class="button mr-2"><i class="far fa-eye"></i> Xem chi tiết đơn hàng</button>
+                                        </div>
+                                        <span class="total-order">Tổng số tiền: <strong>965.000&#8363;</strong></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="cancelled">
-                            ...
+                        <div class="tab-pane" id="cancelled">
+                            <div class="shopping-cart mb-4 order-me">
+                                <div class="page-title bg-white mb-1">
+                                    <h4 class="mb-0 px-3 d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <span><i class="fas fa-hotel"></i> Nhà thuốc Long Biên</span>
+                                            <a href="" class="text-blue ml-3 deal-shop"><i class="fas fa-comment-dots"></i> Deal giá với shop</a>
+                                        </div>
+                                        <span class="type-order">Chờ xác nhận</span>
+                                    </h4>
+                                </div>
+                                <ul class="list-cart-shopping">
+                                    <li>
+                                        <div class="item-cart">
+                                            <div class="img-cart">
+                                                <img alt="Sample Product" src="products-images/sp.jpg">
+                                            </div>
+                                            <div class="content-cart">
+                                                <p class="name-cart text-uppercase">kem chống nắng collagen amtx Lorem ipsum dolor.</p>
+                                                <div class="custom-cart">
+                                                    <p>200.000&#8363;/hộp</p>
+                                                    <span>20 (sp)</span>
+                                                    <p><strong>200.000&#8363;</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="cart-footer">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <button class="button mr-2">Mua lại</button>
+                                        </div>
+                                        <span class="total-order">Tổng số tiền: <strong>965.000&#8363;</strong></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

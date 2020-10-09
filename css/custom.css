@@ -1618,12 +1618,12 @@ div#vote-customer {
     background: transparent;
 }
 ul.list-cart-shopping li {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #f6f6f6;
     padding: 6px 0;
 }
 
 .shopping-cart .page-title {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #f6f6f6;
 }
 .cart-footer {
     padding: 5px 15px;
@@ -1696,4 +1696,69 @@ ul.list-cart-shopping li {
 }
 .sec-profile .page-title h4{
     padding-left: 0 !important;
+}
+.rates__items .num {
+    line-height: 12px;
+    font-size: 12px;
+    width: 30px;
+}
+
+.rate-range {
+    flex: 1;
+    height: 12px;
+    margin: 0 5px;
+    background: #cccccc;
+}
+
+.rate-range .active {
+    background: #ffcc2d;
+    height: 100%;
+}
+
+.rates__items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.star-vote .rate-all .rating-box {
+    transform: scale(2);
+    margin: 10px auto;
+}
+.text-danger {
+    color: #f23534 !important;
+}
+.active .text-danger {
+    color: #ffff !important;
+}
+.type-order {
+    color: #f23534;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.order-me .item-cart {
+    padding-left: 10px;
+}
+.total-order {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.total-order strong {
+    color: #f23534;
+    margin-left: 6px;
+    font-size: 15px;
+}
+.nav-tabs.product-tabs > li > a{
+    font-weight: inherit;
+}
+.deal-shop {
+    background: #2682d2 !important;
+    color: #fff !important;
+    padding: 4px;
+}
+
+.order-me .page-title h4 {
+    padding-bottom: 3px !important;
 }
