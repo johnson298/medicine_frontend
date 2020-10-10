@@ -127,7 +127,7 @@ ul.shop-more li,
     font-size: 13px;
 }
 #recently-viewed-items.block-list-profile li {
-    padding: 12px 5px !important;
+    padding: 6px 5px !important;
 }
 #nav > li > a > span{
     text-transform: capitalize;
@@ -541,7 +541,8 @@ ul.shop-more {
 .block-img {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 12px;
 }
 .block-img .img {
     width: 50px;
@@ -555,6 +556,7 @@ ul.shop-more {
 }
 .block-img label {
     padding-left: 5px;
+    margin-left: 12px;
 }
 .block-list-profile .item.active a{
     color: #2682d2;
@@ -1749,16 +1751,191 @@ ul.list-cart-shopping li {
     color: #f23534;
     margin-left: 6px;
     font-size: 15px;
-}
-.nav-tabs.product-tabs > li > a{
-    font-weight: inherit;
+    font-weight: bold;
 }
 .deal-shop {
     background: #2682d2 !important;
     color: #fff !important;
     padding: 4px;
+    border-radius: 3px;
+    font-size: 12px;
 }
 
 .order-me .page-title h4 {
     padding-bottom: 3px !important;
+    color: #515151;
 }
+.order-me .page-title h4 i {
+    font-size: 12px;
+}
+.sidebar-profile {
+    background: #fff;
+}
+
+.block-company li:before {
+    display: none;
+}
+
+.block-list-profile .item a i {
+    font-size: 18px;
+    width: 20px;
+}
+.shopping-cart .cart-footer .button {
+    border: 1px solid #2682d2;
+    color: #2682d2;
+    padding: 3px 10px;
+    font-size: 13px;
+    display: inline-block;
+}
+.shopping-cart .cart-footer .button:hover{
+    color: #fff;
+}
+section.main-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.stepper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20px;
+}
+
+.stepper .step-item {display: flex;flex-direction: column;align-items: center;text-align: center;width: calc(100% / 5);background: #fff;}
+
+.stepper .step-item .step-item-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #116bbb;
+    border: 2px solid #116bbb;
+    margin-bottom: 7px;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+}
+
+.step-item-content .title {
+    margin-bottom: 0;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.order-detail {
+    background: #fff;
+}
+
+.order-detail-head {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.order-detail-head p {
+    margin: 0;
+}
+
+.stepper-range {
+    position: absolute;
+    height: 3.5px;
+    top: 25px;
+    left: 0;
+    background: #e1e1e1;
+    z-index: 1;
+    z-index: 9;
+}
+.stepper-range .stepper-active{
+    background: #116bbb;
+    height: 100%;
+}
+a {
+    cursor: pointer;
+}
+.step-waiting .stepper-active {
+    width: 0;
+}
+
+.step-confirmed .stepper-active {
+    width: calc(100% / 4);
+}
+
+.step-shipping .stepper-active {
+    width: calc((100% / 4) * 2);
+}
+
+.step-shipped .stepper-active {
+    width: calc((100% / 4) * 3);
+}
+
+.step-rate .stepper-active {
+    width: 100%;
+}
+
+.step-confirmed .step-item--waiting .step-item-icon,
+.step-shipping .step-item--confirmed .step-item-icon,
+.step-shipping .step-item--waiting .step-item-icon,
+.step-shipped .step-item--waiting .step-item-icon,
+.step-shipped .step-item--confirmed .step-item-icon,
+.step-shipped .step-item--shipping .step-item-icon,
+.step-rate .step-item--confirmed .step-item-icon,
+.step-rate .step-item--waiting .step-item-icon,
+.step-rate .step-item--shipping .step-item-icon,
+.step-rate .step-item--shipped .step-item-icon {
+    color: #248deb;
+    border-color: #248deb;
+}
+
+.step-waiting .step-item--waiting .step-item-icon,
+.step-confirmed .step-item--confirmed .step-item-icon,
+.step-shipping .step-item--shipping .step-item-icon,
+.step-shipped .step-item--shipped .step-item-icon,
+.step-rate .step-item--rate .step-item-icon {
+    background: #248deb;
+    border-color: #248deb;
+    color: #fff;
+}
+
+/*start - custom cart profile*/
+.content-cart {
+    display: flex;
+}
+
+.name-order-cart {
+    width: 50%;
+}
+
+.quantity-cart {
+    width: 25%;
+}
+
+.total-cart {
+    width: 25%;
+    align-items: flex-end !important;
+}
+
+.quantity-cart p {
+    font-weight: 500;
+}
+
+.total-cart p {
+    font-weight: 500;
+}
+.content-cart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content-cart-item .old-price {
+    margin: 0 !important;
+}
+.active .content-cart .text-danger {
+    color: #f23534 !important;
+}
+/*end - custom cart profile*/

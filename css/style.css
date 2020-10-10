@@ -519,17 +519,8 @@ a.block-currency:focus {
     line-height: 1.6em
 }
 .icon-cart:before {
-    color: #000;
-    content: '\f07a';
-    font-size: 19px;
-    height: 22px;
-    line-height: 20px;
-    padding-right: 7px;
-    text-align: center;
-    width: 25px;
-    border-radius: 2px;
-    float: left;
-}
+     content: '\f07a';
+ }
 .mini-cart .basket a:hover {
     text-decoration: none;
 }
@@ -787,11 +778,6 @@ nav {
     position: relative;
     text-align: center;
 }
-#nav > li > a:hover:nth-child(1), #nav > li > a.active:nth-child(1) {
-    color: #fff;
-    margin-right: 0px;
-    background-color: #186db7;
-}
 .cms-index-index #nav-home .level-top {
     color: #fff;
     margin-right: 0px;
@@ -808,8 +794,7 @@ nav {
 }
 #nav > li:hover > a, .vertnav-top li > a:hover {
     color: #fff;
-    margin-right: 0px;
-    background: #186db7;
+    margin-right: 0;
 }
 .cms-index-index #nav #nav-home > a span, #nav > li.active > a span, .vertnav-top li.current > a span {
     padding: 0px 20px;
@@ -4189,9 +4174,7 @@ ol#compare-items li.last {
     color: #eee;
 }
 /* 14o. Block: Company */
-.block-company {
-    background-color: #f3f3f3;
-}
+.block-company {margin: 0;padding: 15px 0;}
 .block-company .block-title {
     background: none repeat scroll 0 0 #2682d2;
     color: #fff;
@@ -4211,8 +4194,7 @@ ol#compare-items li.last {
 .sidebar .block-company li {
     padding: 10px 0px !important;
     list-style: none;
-    border-bottom: 1px #ddd solid;
-    border-top: 1px #fff solid;
+    border-top: ;
 }
 .block-company li:first-child {
     border-top: none
@@ -4495,13 +4477,12 @@ button.button.view-all:before {
     border: 1px #ddd solid;
     background: #fff;
     padding: 5px 12px;
-    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+    transition: .3s;
 }
 .button:hover {
-    border: 1px solid #2682d2;
     background: #2682d2;
     padding: 5px 12px;
-    color: #FFF;
+    color: #ffffff;
 }
 button.button span {
     font-weight: bold;

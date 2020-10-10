@@ -33,5 +33,12 @@ $(document).ready(function() {
         navigationText: ['<a class="flex-prev"></a>', '<a class="flex-next"></a>'],
         slideSpeed: 500,
         pagination: !1
-    })
+    });
+
+    // custom width stepper-active
+    const widthHidden = $('.step-item').width();
+    $('.stepper-range').css({
+        width: `calc( 100% - ${widthHidden}px)`,
+        left: widthHidden/2
+    });
 });
