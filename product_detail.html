@@ -372,24 +372,7 @@
                                                 <div class="form-add">
                                                     <form id="review-form" method="post" action="#">
                                                         <fieldset>
-                                                            <h4>Đánh giá sản phẩm</h4>
-                                                            <ul id='js-rating-star' class="c-rating-star u-text-center" data-name="test">
-                                                                <li class='c-rating-star__item' title='Poor' data-value='1'>
-                                                                    <i class='fa fa-star fa-fw c-rating-star__icon'></i>
-                                                                </li>
-                                                                <li class='c-rating-star__item' title='Fair' data-value='2'>
-                                                                    <i class='fa fa-star fa-fw c-rating-star__icon'></i>
-                                                                </li>
-                                                                <li class='c-rating-star__item' title='Good' data-value='3'>
-                                                                    <i class='fa fa-star fa-fw c-rating-star__icon'></i>
-                                                                </li>
-                                                                <li class='c-rating-star__item' title='Excellent' data-value='4'>
-                                                                    <i class='fa fa-star fa-fw c-rating-star__icon'></i>
-                                                                </li>
-                                                                <li class='c-rating-star__item' title='WOW!!!' data-value='5'>
-                                                                    <i class='fa fa-star fa-fw c-rating-star__icon'></i>
-                                                                </li>
-                                                            </ul>
+                                                            <h3>Đánh giá sản phẩm</h3>
                                                             <textarea placeholder="Nhập đánh giá..." class="form-control w-100"></textarea>
                                                             <span id="input-message-box"></span>
                                                             <input type="hidden" value="" class="validate-rating" name="validate_rating">
@@ -410,11 +393,17 @@
                                                             </div>
                                                             <div class="review">
                                                                 <h6><a href="#">Nguyễn Văn A</a></h6>
-                                                                <div class="rating-box">
-                                                                    <div class="rating" style="width:100%;"></div>
-                                                                </div>
                                                                 <small>01/3/2014 </small>
                                                                 <div class="review-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto cupiditate delectus deleniti dignissimos dolore eius, ex expedita illo labore nam nemo, numquam praesentium qui quo saepe sit suscipit tempora.</div>
+                                                                <div class="actions-cmt">
+                                                                    <span class="feedback">Phản hồi</span>
+                                                                </div>
+                                                                <div class="reply" style="display: none;">
+                                                                    <textarea class="input-text" placeholder="Phản hồi công khai..."></textarea>
+                                                                    <div class="reply-action">
+                                                                        <button class="btn-rep">Trả lời</button>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </li>
                                                         <li>
@@ -423,11 +412,17 @@
                                                             </div>
                                                             <div class="review">
                                                                 <h6><a href="#">Nguyễn Văn A</a> <span class="shield-buy"><i class="fas fa-shield-alt"></i> Chứng nhận đã mua hàng</span></h6>
-                                                                <div class="rating-box">
-                                                                    <div class="rating" style="width:100%;"></div>
-                                                                </div>
                                                                 <small>01/3/2014 </small>
                                                                 <div class="review-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto cupiditate delectus deleniti dignissimos dolore eius, ex expedita illo labore nam nemo, numquam praesentium qui quo saepe sit suscipit tempora.</div>
+                                                                <div class="actions-cmt">
+                                                                    <span class="feedback">Phản hồi</span>
+                                                                </div>
+                                                                <div class="reply" style="display: none;">
+                                                                    <textarea class="input-text" placeholder="Phản hồi công khai..."></textarea>
+                                                                    <div class="reply-action">
+                                                                        <button class="btn-rep">Trả lời</button>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -697,6 +692,7 @@
 
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
 <script type='text/javascript'>
     $(document).ready(function() {
         $(".slider-main .slider-items").owlCarousel({

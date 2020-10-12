@@ -5828,7 +5828,7 @@ div.moreview_description.rtl {
     line-height: 18px;
 }
 #customer-reviews h3 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
     margin-bottom: 15px;
 }
@@ -5916,15 +5916,12 @@ div.moreview_description.rtl {
     padding-left: 2.5em;
     width: 84%;
 }
-.box-reviews .review .review-txt {
-    border-bottom: 1px solid #DFDFDF;
-    padding-bottom: 12px;
-    margin-bottom: 10px;
-}
 .box-reviews ul li h6 {
     font-size: 15px;
-    margin-bottom: 3px;
     padding: 0;
+    margin-bottom: 0;
+    line-height: 8px;
+    margin-top: 6px;
 }
 .box-reviews2 ul li {
     margin-bottom: 0px;
@@ -6297,8 +6294,10 @@ fieldset {
     list-style: none;
 }
 #customer-reviews li {
-    margin-bottom: 0px;
     list-style: none;
+    margin-bottom: 15px;
+    border-left: none;
+    padding-bottom: 8px;
 }
 #customer-reviews ul {
     margin: auto;
@@ -7120,7 +7119,7 @@ p.control input.checkbox, p.control input.radio {
 .form-list label {
     position: relative;
     z-index: 0;
-    font-weight: normal;
+    font-weight: 500;
     color: #333;
     display: inline;
 }
