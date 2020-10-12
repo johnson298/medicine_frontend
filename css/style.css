@@ -4480,9 +4480,8 @@ button.button.view-all:before {
     transition: .3s;
 }
 .button:hover {
-    background: #2682d2;
-    padding: 5px 12px;
-    color: #ffffff;
+    background: #2682d259;
+    color: inherit;
 }
 button.button span {
     font-weight: bold;

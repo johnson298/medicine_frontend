@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab203e4d-dab6-4c5a-af96-8f243fe82c2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatShop.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatShop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/donhangcuatoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/donhangcuatoi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giohang.html" beforeDir="false" afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog-img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog-img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog-img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog-img4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
-    </list>
+    <list default="true" id="ab203e4d-dab6-4c5a-af96-8f243fe82c2d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,7 +15,7 @@
     <session id="1639980653">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -97,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="443" column="21" lean-forward="true" selection-start-line="443" selection-start-column="21" selection-end-line="443" selection-end-column="21" />
+            <state relative-caret-position="36">
+              <caret line="2051" column="55" lean-forward="true" selection-start-line="2051" selection-start-column="55" selection-end-line="2051" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -167,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatShop.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="308" column="105" selection-start-line="308" selection-start-column="105" selection-end-line="308" selection-end-column="105" />
+              <caret line="308" column="114" lean-forward="true" selection-start-line="308" selection-start-column="114" selection-end-line="308" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -293,8 +279,8 @@
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/product_detail.html" />
         <option value="$PROJECT_DIR$/shop.html" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/chatShop.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -400,12 +386,12 @@
       <workItem from="1602169051826" duration="664000" />
       <workItem from="1602200710678" duration="2605000" />
       <workItem from="1602298780124" duration="15137000" />
-      <workItem from="1602512271256" duration="6659000" />
+      <workItem from="1602512271256" duration="6940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156425000" />
+    <option name="totallyTimeSpent" value="156706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -423,7 +409,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.27659574" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35602838" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35602838" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -751,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="443" column="21" lean-forward="true" selection-start-line="443" selection-start-column="21" selection-end-line="443" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/giohang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -785,7 +764,14 @@
     <entry file="file://$PROJECT_DIR$/chatShop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="308" column="105" selection-start-line="308" selection-start-column="105" selection-end-line="308" selection-end-column="105" />
+          <caret line="308" column="114" lean-forward="true" selection-start-line="308" selection-start-column="114" selection-end-line="308" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2051" column="55" lean-forward="true" selection-start-line="2051" selection-start-column="55" selection-end-line="2051" selection-end-column="55" />
         </state>
       </provider>
     </entry>
