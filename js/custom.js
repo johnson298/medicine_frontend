@@ -44,8 +44,12 @@ $(document).ready(function() {
 
     // Rep comment
     $('.actions-cmt .feedback').click(function() {
-        $(this).parent().next().show();
-    })
+        $(this).parent().next('.reply').slideToggle(80);
+    });
+    // View cmt reply
+    $('.actions-cmt .view-rep-cmt').click(function() {
+        $(this).parent().parent().find('.cmt-reply').slideToggle(0);
+    });
 });
 $(document).ready(function(){
 
