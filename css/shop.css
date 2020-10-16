@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 768px) {
     .page-wrapper.toggled .page-content {
-        padding-left: 300px;
+        padding-left: 275px;
     }
 }
 /*----------------show sidebar button----------------*/
@@ -488,6 +488,10 @@ main.page-content.page-content-shop {
 .card {
     background: #fff;
     padding: 10px;
+    border-radius: 3px;
+}
+.card-shadow {
+    box-shadow: 0 3px 13px rgba(0,0,0,.1);
 }
 .card-body{
     padding: 10px;
@@ -529,4 +533,22 @@ table .btn-action {
     border: none;
     padding: 5px 8px;
     border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .header-seller {
+        height: 45px;
+    }
+}
+.results > .result-count:not(:nth-child(4n)){
+    border-right: 1px solid #ccc;
+}
+.card-header .card-title {
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.card-header span {
+    color: #999;
 }

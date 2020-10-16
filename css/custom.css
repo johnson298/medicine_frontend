@@ -1776,6 +1776,7 @@ ul.list-cart-shopping li {
 }
 .sidebar-profile {
     background: #fff;
+    padding: 0;
 }
 
 .block-company li:before {
@@ -2077,4 +2078,50 @@ input {
 }
 ul.cmt-reply {
     margin-top: 14px !important;
+}
+.tabs-profile-cart {
+    height: 45px;
+}
+
+.tabs-profile-cart > li {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.sidebar-profile .block-img {
+    padding: 15px 8px;
+}
+
+.sidebar-profile .block.block-company {
+    padding: 0;
+}
+
+.sidebar-profile #recently-viewed-items {
+    margin: 0;
+}
+
+.sidebar-profile .item.active {
+    background: whitesmoke;
+}
+
+.sidebar-profile .item:hover {
+    background: whitesmoke;
+}
+.result-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px 0;
+    margin-bottom: 16px;
+}
+
+.result-count .title {
+    margin: 0;
+    color: #555;
+    text-transform: capitalize;
+}
+.result-count strong {
+    font-weight: bold;
+    font-size: 16px;
 }
