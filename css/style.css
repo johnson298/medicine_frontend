@@ -519,8 +519,8 @@ a.block-currency:focus {
     line-height: 1.6em
 }
 .icon-cart:before {
-     content: '\f07a';
- }
+    content: '\f07a';
+}
 .mini-cart .basket a:hover {
     text-decoration: none;
 }
@@ -2761,6 +2761,7 @@ ul.topnav em:hover {
 .price-box {
     margin: 3px 0;
     min-height: 20px;
+    text-align: right;
 }
 /* 11a. Regular price */
 
@@ -2817,7 +2818,6 @@ ul.topnav em:hover {
     font-size: 13px;
     font-weight: normal;
     text-decoration: line-through;
-    margin-right: 6px;
 }
 .latest-product .old-price .price-label {
     display: none;

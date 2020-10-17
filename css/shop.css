@@ -552,3 +552,6 @@ table .btn-action {
 .card-header span {
     color: #999;
 }
+.page-content-shop > .card-shadow {
+    margin: 0 15px;
+}
