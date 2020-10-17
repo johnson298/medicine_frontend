@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 768px) {
     .page-wrapper.toggled .page-content {
-        padding-left: 275px;
+        padding-left: 260px;
     }
 }
 /*----------------show sidebar button----------------*/
@@ -385,9 +385,6 @@
     background-color: #dc3545;
 }
 /*-----------------------------chiller-theme-------------------------------------------------*/
-main.page-content.page-content-shop {
-    padding-right: 15px;
-}
 
 .chiller-theme .sidebar-wrapper {
     background: #fff;

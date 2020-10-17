@@ -79,12 +79,12 @@
                 <i class="fas fa-bars"></i>
             </a>
             <nav id="sidebar" class="sidebar-wrapper">
-                <div class="sidebar-content">
+                <div class="sidebar-content scroll-custom">
                     <div class="sidebar-header">
                         <div class="user-pic">
                             <img class="img-responsive img-rounded" src="images/thuocgiamcan.png" alt="User picture">
                         </div>
-                        <div class="user-info">
+                        <div class="user-info sm-hidden">
                               <span class="user-name">
                                 <strong>Quỳnh Nguyễn</strong>
                               </span>
@@ -94,66 +94,66 @@
                     <!-- sidebar-header  -->
                     <div class="sidebar-menu">
                         <ul>
-                            <li class="header-menu">
+                            <li class="header-menu sm-hidden">
                                 <span>Tổng quan</span>
                             </li>
                             <li>
                                 <a href="shop_home.html">
                                     <i class="fas fa-home"></i>
-                                    <span>Trang chủ</span>
+                                    <span class="sm-hidden">Trang chủ</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="shop_donhang.html">
                                     <i class="fa fa-book"></i>
-                                    <span>Đơn hàng</span>
+                                    <span class="sm-hidden">Đơn hàng</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="shop_chat.html">
                                     <i class="fas fa-comment-dots"></i>
-                                    <span>Tin nhắn</span>
-                                    <span class="badge badge-pill badge-danger">3</span>
+                                    <span class="sm-hidden">Tin nhắn</span>
+                                    <span class="badge badge-pill badge-danger sm-hidden" >3</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="shop_sanpham.html">
                                     <i class="fas fa-shopping-bag"></i>
-                                    <span>Sản phẩm</span>
-                                    <span class="badge badge-pill badge-danger">12000</span>
+                                    <span class="sm-hidden">Sản phẩm</span>
+                                    <span class="badge badge-pill badge-danger sm-hidden">12000</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="shop_khohang.html">
                                     <i class="fas fa-boxes"></i>
-                                    <span>Kho hàng</span>
+                                    <span class="sm-hidden">Kho hàng</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="shop_khachhang.html">
                                     <i class="fas fa-users"></i>
-                                    <span>Khách hàng</span>
+                                    <span class="sm-hidden">Khách hàng</span>
                                 </a>
                             </li>
-                            <li class="header-menu">
+                            <li class="header-menu sm-hidden">
                                 <span>Thông tin</span>
                             </li>
                             <li>
                                 <a href="shop_thongke.html">
                                     <i class="fa fa-chart-line"></i>
-                                    <span>Thống kê</span>
+                                    <span class="sm-hidden">Thống kê</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="shop_hoso.html">
                                     <i class="fas fa-info-circle"></i>
-                                    <span>Hồ sơ cửa hàng</span>
+                                    <span class="sm-hidden">Hồ sơ cửa hàng</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="shop_quangcao.html">
                                     <i class="fas fa-ad"></i>
-                                    <span>Quảng cáo</span>
+                                    <span class="sm-hidden">Quảng cáo</span>
                                 </a>
                             </li>
                         </ul>
@@ -163,80 +163,82 @@
             </nav>
             <!-- sidebar-wrapper  -->
             <main class="page-content page-content-shop">
-                <div class="page-content__header">
-                    <h4><strong>Sản phẩm</strong></h4>
-                </div>
-                <div class="mt-5">
-                    <ul id="product-detail-tab" class="nav nav-tabs product-tabs tab-shop">
-                        <li class="active"> <a href="#tatca" data-toggle="tab"> Tất cả </a> </li>
-                        <li> <a href="#conhang" data-toggle="tab">Còn hàng</a> </li>
-                        <li> <a href="#hethang" data-toggle="tab">Hết hàng</a> </li>
-                        <li> <a href="#chokiemduyet" data-toggle="tab">Chờ kiểm duyệt</a> </li>
-                    </ul>
-                    <div id="productTabContent" class="tab-content mt-2">
-                        <div class="tab-pane fade in active" id="conhang">
-                            <div class="table-list py-3">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="chart-search__input">
-                                            <span class="icon"><i class="fas fa-search"></i></span>
-                                            <input type="text" class="search bg-white" id="search_chat" placeholder="Tìm kiếm đơn hàng...">
+                <div class="col-sm-12">
+                    <div class="page-content__header">
+                        <h4><strong>Sản phẩm</strong></h4>
+                    </div>
+                    <div class="mt-5">
+                        <ul id="product-detail-tab" class="nav nav-tabs product-tabs tab-shop">
+                            <li class="active"> <a href="#tatca" data-toggle="tab"> Tất cả </a> </li>
+                            <li> <a href="#conhang" data-toggle="tab">Còn hàng</a> </li>
+                            <li> <a href="#hethang" data-toggle="tab">Hết hàng</a> </li>
+                            <li> <a href="#chokiemduyet" data-toggle="tab">Chờ kiểm duyệt</a> </li>
+                        </ul>
+                        <div id="productTabContent" class="tab-content mt-2">
+                            <div class="tab-pane fade in active" id="conhang">
+                                <div class="table-list py-3">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="chart-search__input">
+                                                <span class="icon"><i class="fas fa-search"></i></span>
+                                                <input type="text" class="search bg-white" id="search_chat" placeholder="Tìm kiếm đơn hàng...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+                                            <a href="shop_themsanpham.html" class="button bg-blue text-white"><i class="fas fa-plus-circle"></i> Thêm sản phẩm</a>
+                                            <a class="button"><i class="fas fa-print"></i> Xuất dữ liệu</a>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6 text-right">
-                                        <a href="shop_themsanpham.html" class="button bg-blue text-white"><i class="fas fa-plus-circle"></i> Thêm sản phẩm</a>
-                                        <a class="button"><i class="fas fa-print"></i> Xuất dữ liệu</a>
-                                    </div>
+                                    <table class="table">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                <input type="checkbox" class="checkAll" name="checkAll" />
+                                            </th>
+                                            <th>Mã sp</th>
+                                            <th>Tên sản phẩm</th>
+                                            <th>Khung giá</th>
+                                            <th>Tồn kho</th>
+                                            <th>Đã bán</th>
+                                            <th>Loại</th>
+                                            <th>Tùy chỉnh</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td><input type="checkbox" name="item[]" value="1"></td>
+                                            <td>57172</td>
+                                            <td>
+                                                <div class="d-flex align-items-center shop-product-info">
+                                                    <img src="products-images/sp.jpg" alt="" style="width: 60px;">
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, quam!</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p>1-10: 200.000&#8363;</p>
+                                                <p>10-100: 300.000&#8363;</p>
+                                            </td>
+                                            <td>332</td>
+                                            <td>12</td>
+                                            <td>
+                                                <span class="badge">Thực phẩm chức năng</span>
+                                                <span class="badge">Mỹ phẩm</span>
+                                            </td>
+                                            <td>
+                                                <button class="btn-action" title="Xóa"><i class="fas fa-edit"></i></button>
+                                                <button class="btn-action" title="Xóa"><i class="fas fa-trash-alt"></i></button>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th>
-                                            <input type="checkbox" class="checkAll" name="checkAll" />
-                                        </th>
-                                        <th>Mã sp</th>
-                                        <th>Tên sản phẩm</th>
-                                        <th>Khung giá</th>
-                                        <th>Tồn kho</th>
-                                        <th>Đã bán</th>
-                                        <th>Loại</th>
-                                        <th>Tùy chỉnh</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td><input type="checkbox" name="item[]" value="1"></td>
-                                        <td>57172</td>
-                                        <td>
-                                            <div class="d-flex align-items-center shop-product-info">
-                                                <img src="products-images/sp.jpg" alt="" style="width: 60px;">
-                                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, quam!</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p>1-10: 200.000&#8363;</p>
-                                            <p>10-100: 300.000&#8363;</p>
-                                        </td>
-                                        <td>332</td>
-                                        <td>12</td>
-                                        <td>
-                                            <span class="badge">Thực phẩm chức năng</span>
-                                            <span class="badge">Mỹ phẩm</span>
-                                        </td>
-                                        <td>
-                                            <button class="btn-action" title="Xóa"><i class="fas fa-edit"></i></button>
-                                            <button class="btn-action" title="Xóa"><i class="fas fa-trash-alt"></i></button>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
                             </div>
-                        </div>
-                        <div class="tab-pane fade in active" id="hethang">
-                            ...
-                        </div>
-                        <div class="tab-pane fade in active" id="chokiemduyet">
-                            ...
+                            <div class="tab-pane fade in active" id="hethang">
+                                ...
+                            </div>
+                            <div class="tab-pane fade in active" id="chokiemduyet">
+                                ...
+                            </div>
                         </div>
                     </div>
                 </div>

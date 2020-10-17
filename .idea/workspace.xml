@@ -14,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/shop_sanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop_sanpham.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_themdonhang.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop_themdonhang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop_themsanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop_themsanpham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop_thongke.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop_thongke.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,31 +57,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="41" />
-          <entry key="html" value="118" />
+          <entry key="css" value="43" />
+          <entry key="html" value="129" />
           <entry key="js" value="10" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="41" />
-          <entry key="HTML" value="118" />
+          <entry key="CSS" value="43" />
+          <entry key="HTML" value="129" />
           <entry key="JavaScript" value="10" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1992" />
-          <entry key="html" value="20314" />
+          <entry key="css" value="1994" />
+          <entry key="html" value="20315" />
           <entry key="js" value="401" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1992" />
-          <entry key="HTML" value="20314" />
+          <entry key="CSS" value="1994" />
+          <entry key="HTML" value="20315" />
           <entry key="JavaScript" value="401" />
         </counts>
       </usages-collector>
@@ -91,25 +90,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop_themsanpham.html">
+        <entry file="file://$PROJECT_DIR$/backup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-              <folding>
-                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop_thongke.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-              <folding>
-                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="551" column="41" lean-forward="true" selection-start-line="551" selection-start-column="41" selection-end-line="551" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -117,10 +101,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_chat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="327">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -129,10 +114,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_donhang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="412">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -141,10 +127,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_hoso.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="414">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -153,10 +140,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_khachhang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="322">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -165,10 +153,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_khohang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="413">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -177,10 +166,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_quangcao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -189,10 +179,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_sanpham.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -201,14 +192,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_themdonhang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="275">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop_themsanpham.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -225,7 +230,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=&quot;main-container col1-layout&quot;</find>
       <find>class=&quot;list-cart-shopping&quot;</find>
       <find>Danh sách đơn hàng</find>
       <find>id=&quot;js-rating-star&quot;</find>
@@ -255,6 +259,7 @@
       <find>tổng qua</find>
       <find>cửa hàng</find>
       <find>header-sh</find>
+      <find>class=&quot;sidebar-content</find>
     </findStrings>
     <replaceStrings>
       <replace>#2682d2</replace>
@@ -303,6 +308,7 @@
         <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/shop.js" />
+        <option value="$PROJECT_DIR$/shop_thongke.html" />
         <option value="$PROJECT_DIR$/shop_home.html" />
         <option value="$PROJECT_DIR$/css/shop.css" />
         <option value="$PROJECT_DIR$/shop_chat.html" />
@@ -314,7 +320,6 @@
         <option value="$PROJECT_DIR$/shop_sanpham.html" />
         <option value="$PROJECT_DIR$/shop_themdonhang.html" />
         <option value="$PROJECT_DIR$/shop_themsanpham.html" />
-        <option value="$PROJECT_DIR$/shop_thongke.html" />
       </list>
     </option>
   </component>
@@ -359,7 +364,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="shop.c&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;shop_them&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;custom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;shop_ho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;shop_thems&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;shop_san&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_sanpham.html&#10;shop_hom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;produc&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;custom.j&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;cha&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;pro&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;shop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop.html&#10;gio&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/giohang.html&#10;login&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/login.html&#10;style&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/style.css&#10;inde&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/index.html&#10;timkiem&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html&#10;thong&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/thongbao.html&#10;prof&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;sho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop.html&#10;profi&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;chat&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;chatshop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;timk&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html&#10;cus&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/custom.css" />
+    <property name="SearchEverywhereHistoryKey" value="shop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;shop_hom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;shop.c&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;shop_them&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;custom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;shop_ho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;shop_thems&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;shop_san&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_sanpham.html&#10;produc&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;custom.j&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;cha&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;pro&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;gio&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/giohang.html&#10;login&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/login.html&#10;style&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/style.css&#10;inde&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/index.html&#10;timkiem&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html&#10;thong&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/thongbao.html&#10;prof&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;sho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop.html&#10;profi&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;chat&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;chatshop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;timk&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html&#10;cus&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/custom.css" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -423,12 +428,12 @@
       <workItem from="1602512271256" duration="6940000" />
       <workItem from="1602776901677" duration="1568000" />
       <workItem from="1602804734299" duration="3608000" />
-      <workItem from="1602903126099" duration="3995000" />
+      <workItem from="1602903126099" duration="6917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165877000" />
+    <option name="totallyTimeSpent" value="168799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -570,13 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="541" column="28" selection-start-line="541" selection-start-column="28" selection-end-line="676" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -727,17 +725,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop_thongke.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/shop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="562" lean-forward="true" selection-start-line="562" selection-end-line="562" />
+        <state relative-caret-position="273">
+          <caret line="389" column="21" lean-forward="true" selection-start-line="389" selection-start-column="21" selection-end-line="389" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="132">
+          <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -747,82 +755,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="551" column="41" lean-forward="true" selection-start-line="551" selection-start-column="41" selection-end-line="551" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shop_chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="327">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_donhang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="412">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_hoso.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="414">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_khachhang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="322">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_khohang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="413">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_quangcao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_sanpham.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_themdonhang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="275">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -833,20 +856,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_themsanpham.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="183">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop_thongke.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
