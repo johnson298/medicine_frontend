@@ -583,3 +583,105 @@ table .btn-action {
 .header-seller .logo img {
     width: 125px;
 }
+.page-content__header h4 {
+    margin: 6px 0;
+}
+.select-cate option {
+    padding: 3px 0;
+}
+.base-table th, .base-table td {border: 1px solid #ccc;padding: 5px;}
+
+.base-table {
+    border-radius: 5px !important;
+}
+.add-price {
+    text-align: center;
+    border: 1.5px dashed #3c763d;
+    color: #3c763d;
+    cursor: pointer;
+}
+.add-pro label {
+    font-weight: normal;
+}
+
+/* This is copied from https://github.com/blueimp/jQuery-File-Upload/blob/master/css/jquery.fileupload.css */
+.file-upload-image .fileinput-button {
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: 80px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #4dae4c;
+    border: 1px dashed #4dae4c;
+    font-size: 25px;
+}
+
+.file-upload-image .fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+.file-upload-image .thumb {
+    height: 80px;
+    width: 100px;
+}
+
+.file-upload-image ul.thumb-Images li {
+    width: 120px;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 80px;
+}
+
+.file-upload-image .img-wrap {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.file-upload-image .img-wrap .close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 100;
+    background-color: #d0e5f5;
+    color: #f23534;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 18px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+}
+
+.file-upload-image .img-wrap:hover .close {
+    opacity: 1;
+    background-color: #eee;
+}
+
+.file-upload-image .FileNameCaptionStyle {
+    font-size: 12px;
+}
+.file-upload-image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

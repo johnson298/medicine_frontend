@@ -50,10 +50,8 @@ ul.shop-more li,
 }
 .slider-items-products .item {
     transition: .3s out-ease;
-    margin-bottom: unset;
 }
 .slider-items-products .item .col-item{
-    margin-bottom: 15px;
     background: #fff;
 }
 .owl-item .item {
@@ -226,13 +224,13 @@ li.parent > a i {float: right;margin-top: 3px;}
     padding-top: 10px;
 }
 .list-cate {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    margin-top: 5px;
 }
 
 .list-cate > div {
-    border: 2px solid whitesmoke;
-    width: calc(100% / 6);
 }
 
 .list-cate > div:last-child {
@@ -861,14 +859,15 @@ input#search_chat {
 
 .chart-search__input .icon {
     position: absolute;
-    top: 5px;
-    left: 7px;
+    top: 50%;
+    left: 8px;
     color: #bebaba;
+    transform: translate(0, -50%);
 }
 
 .chart-search__input input {
     padding-left: 25px !important;
-    border-radius: 2px;
+    border-radius: 3px;
     background: whitesmoke;
 }
 .cart-box-head h5 {
@@ -1248,14 +1247,11 @@ section.slider-main .slider-items {}
     height: auto;
 }
 .list-products {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
 }
 
-.list-products .item {
-    width: calc(100% / 5);
-    padding: 0 6px;
-}
 .breadcrumbs li strong {
     color: #2c87d8;
 }
@@ -1296,12 +1292,9 @@ section.slider-main .slider-items {}
     transform: translate(6px, 5px);
     color: #ffffffb0;
 }
-.slide-md-6 .item {
-    width: calc(100% / 6);
-}
-.slide-md-5 .item {
-    width: calc(100% / 5);
-}
+.slide-md-4 {grid-template-columns: repeat(4, 1fr);}
+.slide-md-5 {grid-template-columns: repeat(5, 1fr);}
+.slide-md-6 {grid-template-columns: repeat(6, 1fr);}
 div#vote-customer {
     display: flex;
 }
@@ -1954,7 +1947,7 @@ a {
     color: #555;
 }
 .product-buy__count i {
-    margin-left: 2px;
+    margin-left: 4px;
 }
 input {
     border-radius: 3px;
@@ -2124,4 +2117,7 @@ ul.cmt-reply {
 .result-count strong {
     font-weight: bold;
     font-size: 16px;
+}
+.search{
+    border: 1px solid #ccc;
 }
