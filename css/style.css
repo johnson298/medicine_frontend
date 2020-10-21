@@ -19,24 +19,24 @@ Text Domain: Inspire
 2d.  3 Column Layout
 3.   Header
 3a.  language &amp; currency
-3b.  Toplink 
-3c.  Top Shopping Cart 
+3b.  Toplink
+3c.  Top Shopping Cart
 4.   NAVIGATION
-4a.  Mob Menu 
-5.   Header Service 
-6.   Offer Banner 
+4a.  Mob Menu
+5.   Header Service
+6.   Offer Banner
 7.   Title
-8.   New & Sale Label 
+8.   New & Sale Label
 9.   carousel slider
-10.  Rating 
-11.  Price 
-11a. Regular price 
-11b. Old price 
-11c. Special price 
-11d. Minimal price (as low as) 
-11e. Price range 
-12.  PRODUCTS SLIDER 
-13.  BREADCRUMBS 
+10.  Rating
+11.  Price
+11a. Regular price
+11b. Old price
+11c. Special price
+11d. Minimal price (as low as)
+11e. Price range
+12.  PRODUCTS SLIDER
+13.  BREADCRUMBS
 14.  SIDEBAR
 14a. Category boxes
 14b. Left Navigation
@@ -57,7 +57,7 @@ Text Domain: Inspire
 14q. Block: Banner
 14r. Block: Price
 15.  All Buttons Icons
-16.  Category Description 
+16.  Category Description
 17.  Page Heading
 18.  Toolbar
 18a. Pager
@@ -71,13 +71,13 @@ Text Domain: Inspire
 21d. Product Collatera
 21e. Product Tabs
 22.  checkout Pages
-23.  Global Styles 
+23.  Global Styles
 24.  Dashboard
 25.  Data Table
 26.  Shopping Cart Table
 27.  Wishlist Table
 28.  Multiple Addresses Checkout
-29.  Account Login 
+29.  Account Login
 30.  404 Page
 31.  Latest Blog
 32.  To Top
@@ -2756,7 +2756,6 @@ ul.topnav em:hover {
     font-size: 12px;
     color: #333;
     white-space: nowrap;
-    font-family: DIN, Helvetica, Arial, sans-serif
 }
 .price-box {
     margin: 3px 0;
@@ -3128,7 +3127,6 @@ small {
 }
 /* 14. SIDEBAR */
 .block {
-    margin: 0 0 35px;
 }
 .block .block-title {
     color: #000;
@@ -3136,21 +3134,15 @@ small {
     margin: 0;
     font-weight: bold;
     text-transform: none;
-    border-bottom: 2px #eaeaea solid;
+    line-height: 15px;
 }
 .block .block-title span {
-    border-bottom: 3px solid #2682d2;
-    color: #fff;
     display: inline-block;
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 14px;
     letter-spacing: normal;
     margin-top: 0;
-    padding: 8px 15px 6px 15px;
     position: relative;
-    text-transform: uppercase;
-    background: #2682d2;
-    letter-spacing: 1px;
+    font-weight: 500;
 }
 .block .block-content {
     border-top: medium none;
@@ -3193,17 +3185,12 @@ small {
 .block li.even {
 }
 .side-nav-categories {
-    background: #f5f5f5;
-    margin-bottom: 35px;
 }
 .side-nav-categories .block-title {
-    color: #fff;
     font-size: 14px;
     margin: 0;
-    padding: 8px 10px;
     /* background-color: #fff; */
     font-weight: bold;
-    background: #2682d2;
     text-transform: uppercase;
 }
 .side-nav-categories .block-title:before {
@@ -3214,9 +3201,7 @@ small {
 }
 /* 14a. Category boxes */
 
-.box-category {
-    padding: 8px 15px 0px;
-}
+.box-category {}
 .box-category ul {
     list-style: none;
     margin: 0;
@@ -3225,7 +3210,6 @@ small {
 .box-category > ul > li {
     display: block;
     position: relative;
-    box-shadow: 0 1px 0 #ddd, 0 2px 0 #FFFFFF;
     margin: 0;
 }
 .box-category > ul > li:last-child {
@@ -3289,7 +3273,6 @@ small {
 }
 .box-category > ul > li > a.active {
     color: #333333;
-    font-weight: 900;
     margin-bottom: 0;
 }
 .box-category > ul > li a.active + ul {
@@ -3333,7 +3316,6 @@ small {
 }
 /* 14b. Left Navigation*/
 .side-nav-categories ul li {
-    padding: 2px 0px;
 }
 .side-nav-categories ul li a {
     display: inline-block;
@@ -4069,15 +4051,15 @@ ol#compare-items li.last {
 }
 /* 14l. Block: Poll */
 .block-poll {
-    background-color: #fff;
     padding: 0px;
+    border-top: 1px #d7d7d7 solid;
+    padding: 16px 0;
 }
 .block-poll label {
     margin-bottom: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: 12px;
     color: #333;
     font-weight: normal;
 }
@@ -4480,8 +4462,8 @@ button.button.view-all:before {
     transition: .3s;
 }
 .button:hover {
-    background: #2682d259;
-    color: inherit;
+    background: #2682d2de;
+    color: white;
 }
 button.button span {
     font-weight: bold;
@@ -6522,7 +6504,7 @@ fieldset {
 }
 .availability-only-details tr.odd td.last {
 }
-/* Mua hàng */
+/* Mua hÃ ng */
 
 .add-to-cart label {
     color: #333;
@@ -6601,7 +6583,7 @@ fieldset {
 .product-view .add-to-cart .paypal-logo {
     margin: 0;
 }
-/*  Add to Links + Mua hàng */
+/*  Add to Links + Mua hÃ ng */
 .add-to-box {
     margin: 15px 0 0px;
     overflow: hidden;
@@ -8962,7 +8944,7 @@ a.button.wishlist {
     position: relative
 }
 .arrow-list li:before {
-    content: "›";
+    content: "â€º";
     display: inline;
     font-size: 1.1em;
     position: absolute;

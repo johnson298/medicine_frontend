@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab203e4d-dab6-4c5a-af96-8f243fe82c2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timkiem.html" beforeDir="false" afterPath="$PROJECT_DIR$/timkiem.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +20,10 @@
     <session id="1639980653">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="1" />
@@ -41,13 +44,13 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="49" />
-          <entry key="html" value="140" />
+          <entry key="html" value="141" />
           <entry key="js" value="10" />
           <entry key="rnc" value="1" />
         </counts>
@@ -55,22 +58,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="49" />
-          <entry key="HTML" value="140" />
+          <entry key="HTML" value="141" />
           <entry key="JavaScript" value="10" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2096" />
-          <entry key="html" value="22102" />
+          <entry key="css" value="2109" />
+          <entry key="html" value="22303" />
           <entry key="js" value="401" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2096" />
-          <entry key="HTML" value="22102" />
+          <entry key="CSS" value="2109" />
+          <entry key="HTML" value="22303" />
           <entry key="JavaScript" value="401" />
         </counts>
       </usages-collector>
@@ -81,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="1947" column="1" lean-forward="true" selection-start-line="1947" selection-start-column="1" selection-end-line="1947" selection-end-column="1" />
+            <state relative-caret-position="589">
+              <caret line="2142" column="1" selection-start-line="2142" selection-start-column="1" selection-end-line="2142" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -90,20 +93,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_themsanpham.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
+            <state relative-caret-position="7425">
               <caret line="275" column="33" selection-start-line="275" selection-start-column="33" selection-end-line="275" selection-end-column="33" />
               <folding>
                 <element signature="n#div#3;n#div#0;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#19077#19284#0" />
-                <element signature="e#19367#20882#0" />
-                <element signature="e#20970#22443#0" />
-                <element signature="e#22560#23907#0" />
-                <element signature="e#24010#24342#0" />
-                <element signature="e#24445#24612#0" />
-                <element signature="e#24726#25275#0" />
-                <element signature="e#25365#25905#0" />
-                <element signature="e#43#50#1" expanded="true" />
-                <element signature="e#25997#26445#0" />
               </folding>
             </state>
           </provider>
@@ -112,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/shop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="15822">
               <caret line="586" column="13" selection-start-line="586" selection-start-column="13" selection-end-line="586" selection-end-column="13" />
             </state>
           </provider>
@@ -121,20 +114,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop_yeucausanpham.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
+            <state relative-caret-position="7857">
+              <caret line="303" selection-start-line="303" selection-end-line="303" />
               <folding>
                 <element signature="n#div#3;n#div#0;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#18993#19180#0" />
-                <element signature="e#19255#20658#0" />
-                <element signature="e#20738#22051#0" />
-                <element signature="e#22160#23379#0" />
-                <element signature="e#23474#23762#0" />
-                <element signature="e#23857#23996#0" />
-                <element signature="e#24102#24591#0" />
-                <element signature="e#24673#25157#0" />
-                <element signature="e#43#50#1" expanded="true" />
-                <element signature="e#25241#25641#0" />
               </folding>
             </state>
           </provider>
@@ -143,16 +126,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+            <state relative-caret-position="2268">
+              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
+            <state relative-caret-position="135">
               <caret line="544" column="38" selection-start-line="544" selection-start-column="38" selection-end-line="544" selection-end-column="38" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -170,11 +153,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9541" lean-forward="true" selection-start-line="9541" selection-end-line="9541" />
+            <state relative-caret-position="273">
+              <caret line="4465" column="17" lean-forward="true" selection-start-line="4465" selection-start-column="17" selection-end-line="4465" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timkiem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="525" column="77" selection-start-line="525" selection-start-column="77" selection-end-line="525" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -190,15 +182,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=&quot;col-lg-5 col-sm-12 col-md-5 col-xs-12&quot;</find>
-      <find>header-mi</find>
-      <find>header-shop</find>
-      <find>&lt;div class=&quot;col-lg-5 col-sm-12 col-md-5 col-xs-12&quot;&gt;</find>
-      <find>sản phẩm</find>
-      <find>class=&quot;col-sm-3 h-100 h-sm-auto&quot;</find>
-      <find>.header-seller</find>
-      <find>calc(100% - 100px)</find>
-      <find>sidebar</find>
       <find>id=&quot;sidebar&quot;</find>
       <find>sidebar-wrapper</find>
       <find>marginTop</find>
@@ -220,6 +203,15 @@
       <find>mô tả</find>
       <find>số lượng</find>
       <find>10 shop</find>
+      <find>class=&quot;col-left sidebar col-sm-3 col-xs-12 col-sm-pull-9 wow cc_cursor&quot;</find>
+      <find>class=&quot;col-left sidebar col-sm-3 col-xs-12 col-sm-pull-9</find>
+      <find>cc_cursor</find>
+      <find>pagination</find>
+      <find>đánh giá</find>
+      <find>hà</find>
+      <find>class=&quot;category-title&quot;</find>
+      <find>class=&quot;button btn-block&quot;</find>
+      <find>base-bu</find>
     </findStrings>
     <replaceStrings>
       <replace>#2682d2</replace>
@@ -272,17 +264,17 @@
         <option value="$PROJECT_DIR$/shop_donhang.html" />
         <option value="$PROJECT_DIR$/shop_sanpham.html" />
         <option value="$PROJECT_DIR$/shop_khachhang.html" />
-        <option value="$PROJECT_DIR$/timkiem.html" />
         <option value="$USER_HOME$/Desktop/a.html" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/giohang.html" />
         <option value="$USER_HOME$/Desktop/abc.html" />
         <option value="$PROJECT_DIR$/css/shop.css" />
         <option value="$PROJECT_DIR$/shop_themsanpham.html" />
         <option value="$PROJECT_DIR$/shop_yeucausanpham.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/timkiem.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -327,7 +319,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/index.html&#10;style&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/style.css&#10;respon&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/responsive.css&#10;shop.&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;shop.c&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;themsan&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;gio&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/giohang.html&#10;inde&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/index.html&#10;cus&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/custom.css&#10;shop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;shop_hom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;shop_them&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;custom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;shop_ho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;shop_thems&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;shop_san&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_sanpham.html&#10;produc&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;custom.j&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;cha&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;pro&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;login&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/login.html&#10;timkiem&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html&#10;thong&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/thongbao.html&#10;prof&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;sho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop.html&#10;profi&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;chat&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;chatshop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;timk&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html" />
+    <property name="SearchEverywhereHistoryKey" value="timkiem&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html&#10;index&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/index.html&#10;style&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/style.css&#10;respon&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/responsive.css&#10;shop.&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;shop.c&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;themsan&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;gio&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/giohang.html&#10;inde&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/index.html&#10;cus&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/custom.css&#10;shop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/css/shop.css&#10;shop_hom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;shop_them&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;custom&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;shop_ho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_home.html&#10;shop_thems&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_themsanpham.html&#10;shop_san&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop_sanpham.html&#10;produc&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;custom.j&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/js/custom.js&#10;cha&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;pro&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/product_detail.html&#10;login&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/login.html&#10;thong&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/thongbao.html&#10;prof&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;sho&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/shop.html&#10;profi&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/profile.html&#10;chat&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;chatshop&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/chatShop.html&#10;timk&#9;FILE&#9;file://F:/PROJECT_F/quaythuocsi/timkiem.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -393,12 +385,13 @@
       <workItem from="1602804734299" duration="3608000" />
       <workItem from="1602903126099" duration="8994000" />
       <workItem from="1603120525790" duration="2160000" />
-      <workItem from="1603201728704" duration="7140000" />
+      <workItem from="1603201728704" duration="7301000" />
+      <workItem from="1603293930677" duration="1950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180176000" />
+    <option name="totallyTimeSpent" value="182287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -416,7 +409,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.27659574" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35602838" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29078013" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -690,20 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timkiem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3753">
-          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="1947" column="1" lean-forward="true" selection-start-line="1947" selection-start-column="1" selection-end-line="1947" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/giohang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -721,70 +700,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/shop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="586" column="13" selection-start-line="586" selection-start-column="13" selection-end-line="586" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop_themsanpham.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
+        <state relative-caret-position="7425">
           <caret line="275" column="33" selection-start-line="275" selection-start-column="33" selection-end-line="275" selection-end-column="33" />
           <folding>
             <element signature="n#div#3;n#div#0;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#19077#19284#0" />
-            <element signature="e#19367#20882#0" />
-            <element signature="e#20970#22443#0" />
-            <element signature="e#22560#23907#0" />
-            <element signature="e#24010#24342#0" />
-            <element signature="e#24445#24612#0" />
-            <element signature="e#24726#25275#0" />
-            <element signature="e#25365#25905#0" />
-            <element signature="e#43#50#1" expanded="true" />
-            <element signature="e#25997#26445#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15822">
+          <caret line="586" column="13" selection-start-line="586" selection-start-column="13" selection-end-line="586" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_yeucausanpham.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
+        <state relative-caret-position="7857">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
           <folding>
             <element signature="n#div#3;n#div#0;n#main#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#18993#19180#0" />
-            <element signature="e#19255#20658#0" />
-            <element signature="e#20738#22051#0" />
-            <element signature="e#22160#23379#0" />
-            <element signature="e#23474#23762#0" />
-            <element signature="e#23857#23996#0" />
-            <element signature="e#24102#24591#0" />
-            <element signature="e#24673#25157#0" />
-            <element signature="e#43#50#1" expanded="true" />
-            <element signature="e#25241#25641#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9541" lean-forward="true" selection-start-line="9541" selection-end-line="9541" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        <state relative-caret-position="2268">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
+        <state relative-caret-position="135">
           <caret line="544" column="38" selection-start-line="544" selection-start-column="38" selection-end-line="544" selection-end-column="38" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -798,6 +750,27 @@
             <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="2142" column="1" selection-start-line="2142" selection-start-column="1" selection-end-line="2142" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timkiem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="525" column="77" selection-start-line="525" selection-start-column="77" selection-end-line="525" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="4465" column="17" lean-forward="true" selection-start-line="4465" selection-start-column="17" selection-end-line="4465" selection-end-column="17" />
         </state>
       </provider>
     </entry>
