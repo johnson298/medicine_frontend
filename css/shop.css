@@ -685,3 +685,45 @@ table .btn-action {
     align-items: center;
     flex-wrap: wrap;
 }
+.cart-box {
+    position: relative;
+}
+
+.order-list {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.order-list__item {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.order-total {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f23534;
+}
+
+.order-list__item .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.cart-list-head {
+    background: #ffffff;
+    padding: 3px;
+}
+
+.back-order {
+    background: #fff;
+    outline: none;
+    border: none;
+}

@@ -31,6 +31,7 @@
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <!--custom css-->
+    <link rel="stylesheet" href="css/shop.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -304,11 +305,10 @@
                                 </div>
                             </div>
                             <div class="col-sm-7 px-0 h-100 cart-box">
-                                <div class="cart-box-head">
-                                    <h5 class="text-blue"><i class="fas fa-list"></i><span>Danh sách đơn hàng</span></h5>
-                                    <button class="button"><i class="fas fa-cart-plus"></i> Thêm sản phẩm</button>
-                                </div>
                                 <div class="cart-list">
+                                    <div class="cart-list-head">
+                                        <button class="back-order"><i class="fas fa-chevron-left"></i> Quay lại</button>
+                                    </div>
                                     <div class="tbl-cart scroll-custom-x scroll-custom">
                                         <table class="table-responsive w-100" id="tbl-cart-price">
                                             <thead>
@@ -491,6 +491,71 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="order-list">
+                                    <div class="cart-box-head">
+                                        <h5 class="text-blue"><i class="fas fa-list"></i><span>Danh sách đơn hàng</span></h5>
+                                    </div>
+                                    <div class="order-list__item">
+                                        <div class="quantity">
+                                            <span class="icon"><i class="fas fa-pills"></i></span>
+                                            <span class="oder-quantity">20 (sản phẩm)</span>
+                                        </div>
+                                        <div class=""><span>Tổng tiền: </span><span class="order-total">10.000&#8363;</span></div>
+                                        <div class="view-detail">
+                                            <button class="btn btn-default btn-view-order">Xem chi tiết & deal giá</button>
+                                        </div>
+                                    </div>
+                                    <div class="order-list__item">
+                                        <div class="quantity">
+                                            <span class="icon"><i class="fas fa-pills"></i></span>
+                                            <span class="oder-quantity">20 (sản phẩm)</span>
+                                        </div>
+                                        <div class=""><span>Tổng tiền: </span><span class="order-total">10.000&#8363;</span></div>
+                                        <div class="view-detail">
+                                            <button class="btn btn-default btn-view-order">Xem chi tiết & deal giá</button>
+                                        </div>
+                                    </div>
+                                    <div class="order-list__item">
+                                        <div class="quantity">
+                                            <span class="icon"><i class="fas fa-pills"></i></span>
+                                            <span class="oder-quantity">20 (sản phẩm)</span>
+                                        </div>
+                                        <div class=""><span>Tổng tiền: </span><span class="order-total">10.000&#8363;</span></div>
+                                        <div class="view-detail">
+                                            <button class="btn btn-default btn-view-order">Xem chi tiết & deal giá</button>
+                                        </div>
+                                    </div>
+                                    <div class="order-list__item">
+                                        <div class="quantity">
+                                            <span class="icon"><i class="fas fa-pills"></i></span>
+                                            <span class="oder-quantity">20 (sản phẩm)</span>
+                                        </div>
+                                        <div class=""><span>Tổng tiền: </span><span class="order-total">10.000&#8363;</span></div>
+                                        <div class="view-detail">
+                                            <button class="btn btn-default btn-view-order">Xem chi tiết & deal giá</button>
+                                        </div>
+                                    </div>
+                                    <div class="order-list__item">
+                                        <div class="quantity">
+                                            <span class="icon"><i class="fas fa-pills"></i></span>
+                                            <span class="oder-quantity">20 (sản phẩm)</span>
+                                        </div>
+                                        <div class=""><span>Tổng tiền: </span><span class="order-total">10.000&#8363;</span></div>
+                                        <div class="view-detail">
+                                            <button class="btn btn-default btn-view-order">Xem chi tiết & deal giá</button>
+                                        </div>
+                                    </div>
+                                    <div class="order-list__item">
+                                        <div class="quantity">
+                                            <span class="icon"><i class="fas fa-pills"></i></span>
+                                            <span class="oder-quantity">20 (sản phẩm)</span>
+                                        </div>
+                                        <div class=""><span>Tổng tiền: </span><span class="order-total">10.000&#8363;</span></div>
+                                        <div class="view-detail">
+                                            <button class="btn btn-default btn-view-order">Xem chi tiết & deal giá</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -591,6 +656,13 @@
             $('#totalPrice').text(realTotal());
             $('#totalDiscount').text(getTotalDiscount());
             $('#totalPay').text(getTotalPay())
+        });
+
+        $('.btn-view-order').click(function() {
+            $('.cart-list').css('transform', 'translate(0)');
+        });
+        $('.back-order').click(function() {
+            $('.cart-list').css('transform', 'translateX(1000px)');
         });
     })
 </script>

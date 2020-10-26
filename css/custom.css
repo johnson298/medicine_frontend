@@ -875,12 +875,12 @@ input#search_chat {
 .cart-box-head h5 span {
     padding-left: 6px;
 }
-.chat-cart .button{
-}
 .chat-cart .cart-box-head{
     display: flex;
     justify-content: space-between;
     padding: 5px 5px 5px 0;
+    background-color: #fff;
+    margin-bottom: 10px;
 }
 .cart-box-head{
     border-bottom: 2px solid #2682d2;
@@ -1010,6 +1010,9 @@ input#search_chat {
 .cart-list {
     padding: 10px;
     height: calc(100% - 40px);
+    transform: translateX(1000px);
+    transition: .3s;
+    z-index: 9999;
 }
 .tbl-cart{
     background-color: #fff;
@@ -2139,5 +2142,7 @@ aside.col-left.sidebar {
 }
 .base-button {
     background: #2682d2;
+    border: none;
     color: #fff;
+    border-radius: 2px;
 }
